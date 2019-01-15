@@ -1,0 +1,17 @@
+.navbar {
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100vw;
+  background-color: aquamarine;
+}
+
+.nav-items {
+  display: inline-flex;
+  list-style: none outside;
+  margin-left: 1em;
+  padding: 0;
+  text-align: left;
+}
