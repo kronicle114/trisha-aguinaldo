@@ -22,6 +22,21 @@ class App extends Component {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/contact" component={Contact} />
+        <footer className="site-footer">
+          <div className="wrapper">
+            <ul className="social-media-list">
+              <li className="footer-items">
+
+              </li>
+              <li className="footer-items">
+              <a      href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">twitter</a>
+              </li>
+              <li className="footer-items">
+          
+              </li>
+            </ul>
+          </div>
+        </footer>
         </div>
       </Router>
 

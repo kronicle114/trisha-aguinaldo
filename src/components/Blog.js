@@ -4,6 +4,14 @@ export default function Blog(props) {
   return(
     <div className="blog-container">
     <h2>Blog</h2>
+
+    <blockquote
+      cite="https://www.globalcitizen.org/en/content/google-yuri-kochiyama-doodle-peace-activist/"
+    >
+        Life is not what you alone make it. Life is the input of everyone who touched your life and every experience that entered it. We are all part of one another.
+        <footer>— Yuri Kochiyama</footer>
+    </blockquote>
+
     <ul className="article-list">
       <li className="articles">
         <h3><a href="https://www.linkedin.com/pulse/teaching-girls-code-boston-patricia-aguinaldo/">Teaching Girls To Code (Boston)</a></h3>

@@ -37,3 +37,11 @@ h1 {
 .gallery-list .gallery img {
   width: 400px;
 }
+
+.site-footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  border-top: 1px solid #999;
+}

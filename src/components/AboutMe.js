@@ -9,31 +9,29 @@ export default function AboutMe(props) {
     <h2>About Me</h2>
       <img src={profile} alt="Trisha Aguinaldo Profile" className="profile-img"
       />
-      <blockquote
-        cite="https://www.globalcitizen.org/en/content/google-yuri-kochiyama-doodle-peace-activist/"
-      >
-        Life is not what you alone make it. Life is the input of everyone who touched your life and every experience that entered it. We are all part of one another.
-        <footer>— Yuri Kochiyama</footer>
+     
+     <blockquote>
+       {/*  Filipina. Asian-American. Queer. Woman of color. Immigrant. Soap Artisan. Foodie. Survivor. These are identities I associate myself with.  */}
+        I'm just adding "Software Developer/Engineer" in the long list of what makes me who I am. 
+        <footer>—Trisha Aguinaldo</footer>
       </blockquote>
+
       <div className="about-blurb">
         <p>
-          I'm a part of the 1.5 generation and grew up surrounded in poverty and trauma both in the Philippines and Boston, MA. But my parents have taught me that the American Dream is alive in health care and education. It's the two things that has helped us attain the comfortable level of security and prosperity.
+          My family moved from the Philippines to the U.S. to get away from poverty. We wanted a piece of that American Dream, so my parents pushed me toward a career in health care and education. After college, I’ve built a reputation as a creative problem solver and a reliable team player after working at a hospital for four years. But, at the end of the day being a hospital administrative assistant was a means to an end. I was not meeting my potential.
         </p>
         <p>
-          So, it was natural for me to gravitate towards mentoring and care giving positions. When I graduated college in 2015, I strived to become a creative problem solver and a reliable team player with four years of experience at an out-patient hospital.
+          A year ago, I launched a WordPress website for my small business to promote my products. In the process, I realized that I wanted software development as my career. It's a challenging, creative, collaborative field. I love programming so much that I taught myself how to code for six months and then enrolled at an online full-stack course. 
         </p>
         <p>
-          I'm switching careers as a Full Stack Web Developer because of my desire to merge community health and education in software development. I'm one step closer to this goal by facilitating a Girls Who Code club in <strong>Boston,MA</strong> on Wednesdays. I love tinkering with things. So when I code, I pour my creativity and problem solving skills in my projects.
-        </p>
-        <p>
-          I write clean, accessible, and testable code. I believe in "teamwork makes the dream work" and using "the right tool for the job." I specialize in the Mongo/Express/React/Node.js stack, but I'm happy to learn a new language or skill. 
-        </p>
-        <p>
-          Filipina. Asian-American. Queer. Woman of color. Immigrant. Soap Artisan. Foodie. Survivor. These are identities I associate myself with. I'm just adding on Software Developer/Engineer in the long list of what makes me who I am. 
-        </p>
+          I'm committed to switching careers as a Full Stack Web Developer because I want to merge my background in community health, education and software development. I'm one step closer to this goal by facilitating a Girls Who Code club in Boston,MA. I am excited to add my skills and unique experiences as a queer woman of color and contribute to open source apps.
+        </p>       
       </div>
       <div className="tech-stack-container">
         <h3>Skills</h3>
+        <p>
+          I write clean, accessible, and testable code. I believe in "teamwork makes the dream work" and using "the right tool for the job." I specialize in the Mongo/Express/React/Node.js stack, but I'm happy to learn a new language or skill. 
+        </p>
         <dl>
           <dt>Languages</dt>
             <dd>JavaScript</dd>

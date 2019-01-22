@@ -6,19 +6,19 @@ export default function Projects(props) {
       <h2>Projects</h2>
       <ul className="project-list">
         <li className="projects">
-          <h3><a href="https://protected-depths-66567.herokuapp.com/">What's Cooking:</a></h3>
+          <h3><a href="https://protected-depths-66567.herokuapp.com/" target="_blank" rel="noopener noreferrer">What's Cooking:</a></h3>
           <p>Deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment</p>
-          <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal">GitHub Repo</a>
+          <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
         </li>
         <li className="projects">
-        <h3><a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/">QuizApp:</a></h3>
+        <h3><a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer">QuizApp:</a></h3>
         <p>Basic quiz app using the HTML, CSS, JavaScript/jQuery.</p>
-        <a href="#placeholder">Repl</a>
+        <a href="#placeholder" target="_blank" rel="noopener noreferrer">Repl</a>
         </li>
         <li className="projects">
-        <h3><a href="https://sweettootsco.wordpress.com/">SweetTootsCo:</a></h3>
+        <h3><a href="https://sweettootsco.wordpress.com/" target="_blank" rel="noopener noreferrer">SweetTootsCo:</a></h3>
         <p>Produced the content (images, text, videos, and etc) for my home business: Sweet Toots Co-- handmade natural artisan soaps and other luxury bath items.</p>
-        <a href="#placeholder">GitHub Repo</a>
+        <a href="#placeholder" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
         </li>
         <li className="projects">
         <h3><a href="#gallery">Gallery</a></h3>
@@ -78,7 +78,6 @@ export default function Projects(props) {
               <img src="" alt=""></img>
             </li> */}
           </ul>
-        <a href="#placeholder">GitHub Repo</a>
         </li>
       </ul>
   </div>
