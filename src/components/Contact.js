@@ -7,7 +7,7 @@ export default function Contact(props) {
       <h2>Contact</h2>
       <div className="contact-text">
       <p>
-        Trisha currently resides in Milton, MA. Feel free to contact her for any questions. Office hours are from 9-5 EST. She also volunteers at Girls Who Code Boston and regularly attends tech meetups in Boston.
+        <strong>Patricia "Trisha" Aguinaldo</strong> currently resides in Milton, MA. Feel free to contact her for any questions. Office hours are from 9-5 EST. She also volunteers at Girls Who Code Boston and regularly attends tech meetups in Boston.
         <br/>
         Download her resume <a href={resume}>here</a>.
       </p>
@@ -29,7 +29,6 @@ export default function Contact(props) {
           <li className="contact-items">
             <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">Twitter</a>
           </li>
-          
         </ul>
       </div>
     </div>

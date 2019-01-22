@@ -12,7 +12,7 @@ export default function AboutMe(props) {
      
      <blockquote>
        {/*  Filipina. Asian-American. Queer. Woman of color. Immigrant. Soap Artisan. Foodie. Survivor. These are identities I associate myself with.  */}
-        I'm just adding "Software Developer/Engineer" in the long list of what makes me who I am. 
+        I'm just adding 'Software Developer/Engineer' in the long list of what makes me who I am. 
         <footer>—Trisha Aguinaldo</footer>
       </blockquote>
 

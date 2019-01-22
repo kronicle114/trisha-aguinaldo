@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import Nav from './Nav';
-import About from './AboutMe';
+import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Blog from './Blog';
