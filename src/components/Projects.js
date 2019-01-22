@@ -23,7 +23,7 @@ export default function Projects(props) {
         <li className="projects">
         <h3><a href="#gallery">Gallery</a></h3>
           <ul className="gallery-list">
-            <li className="gallery">
+             {/* <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2018/08/img_7037.jpg" alt="cupcake bathbomb"></img>
             </li>
             <li className="gallery">
@@ -52,14 +52,14 @@ export default function Projects(props) {
             </li>
             <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2017/08/file_004-1.png" alt="geode"></img>
-            </li>
+            </li> */}
             <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2017/08/st-watermark.png" alt="logo"></img>
             </li>
             <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2017/08/cropped-file_000-3.png" alt="logo circle"></img>
             </li>
-            <li className="gallery">
+            {/* <li className="gallery">
               <img src="" alt=""></img>
             </li>
             <li className="gallery">
@@ -76,7 +76,7 @@ export default function Projects(props) {
             </li>
             <li className="gallery">
               <img src="" alt=""></img>
-            </li>
+            </li> */}
           </ul>
         <a href="#placeholder">GitHub Repo</a>
         </li>
