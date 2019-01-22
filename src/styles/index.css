@@ -7,16 +7,20 @@ html {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+  vertical-align: baseline;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+* {
+  margin: auto;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
   line-height: 1;
@@ -46,3 +50,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/* 
+@media screen and (max-width: 1920px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 320px) {
+
+} 
+
+*/

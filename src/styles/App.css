@@ -1,0 +1,39 @@
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  border-bottom: 1px solid #999;
+}
+
+.nav-items {
+  display: inline-flex;
+  list-style: none outside;
+  padding: 10px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-items > a:hover {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  max-width: 350px;
+  width: 50vw;
+}
+
+.gallery-list .gallery img {
+  width: 400px;
+}

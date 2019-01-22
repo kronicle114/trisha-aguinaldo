@@ -1,0 +1,14 @@
+.profile-img {
+  display: inline-block;
+  width: 50%;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+dt {
+  font-weight: bolder;
+}
+
+.about-container {
+  margin: 10px;
+}
