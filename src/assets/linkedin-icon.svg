@@ -1,0 +1,28 @@
+<svg width="314" height="268" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="270" width="316" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_4"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#828282" rx="46" id="svg_1" height="232.000008" width="245.999993" y="16.499999" x="29.5" stroke-width="13" fill="#828282"/>
+  <ellipse id="svg_3" cy="238.499999" cx="518.5" stroke-width="15" stroke="#000" fill="#fff"/>
+  <ellipse id="svg_5" cy="195.499999" cx="215.5" stroke-width="4" stroke="#000" fill="#0fffff"/>
+  <ellipse id="svg_6" cy="129.499999" cx="542.5" stroke-width="4" stroke="#000" fill="#0fffff"/>
+  <ellipse id="svg_7" cy="187.499999" cx="78.5" stroke-width="4" stroke="#000" fill="#0fffff"/>
+  <ellipse id="svg_8" cy="160.499999" cx="569.5" stroke-width="4" stroke="#000" fill="#0fffff"/>
+  <ellipse transform="translate(232,-86) " stroke="#ffffff" ry="49.500004" rx="51.499998" id="svg_2" cy="131.000002" cx="151.999996" stroke-width="19" fill="#828282"/>
+  <ellipse id="svg_11" cy="179.5" cx="410.5" stroke-width="13" stroke="#ffffff" fill="#828282"/>
+  <ellipse id="svg_12" cy="190.5" cx="167.5" stroke-width="13" stroke="#ffffff" fill="#828282"/>
+  <ellipse id="svg_15" cy="157.5" cx="383.5" stroke-width="13" stroke="#ffffff" fill="#e5e5e5"/>
+  <ellipse id="svg_16" cy="65.5" cx="239.5" stroke-width="13" stroke="#ffffff" fill="#ffffff"/>
+  <ellipse id="svg_17" cy="345.5" cx="421.5" stroke-width="13" stroke="#ffffff" fill="#ffffff"/>
+  <ellipse stroke="#ffffff" id="svg_18" cy="65.5" cx="239.5" stroke-width="13" fill="#ffffff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="196" id="svg_20" y="199" x="69.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">in</text>
+ </g>
+</svg>

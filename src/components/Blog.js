@@ -14,6 +14,10 @@ export default function Blog(props) {
 
     <ul className="article-list">
       <li className="articles">
+        <h3><a href="https://www.linkedin.com/pulse/create-custom-domain-your-heroku-app-patricia-aguinaldo/">Create a Custom Domain for your Heroku App</a></h3>
+        <p>January 22, 2019</p>
+      </li>
+      <li className="articles">
         <h3><a href="https://www.linkedin.com/pulse/teaching-girls-code-boston-patricia-aguinaldo/">Teaching Girls To Code (Boston)</a></h3>
         <p>December 20, 2018</p>
       </li>

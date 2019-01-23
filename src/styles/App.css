@@ -32,6 +32,10 @@ h1 {
 }
 
 /* ============== BODY ============== */
+body {
+  background-color: #fdfdfd;
+}
+
 a {
   text-decoration: none;
 }
@@ -50,6 +54,15 @@ h1, h2, h3 {
 
 
 /* ============== FOOTER ============== */
+.social-media-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer-items {
+  display: block;
+}
 .site-footer {
   position:fixed;
   left:0px;
@@ -57,4 +70,9 @@ h1, h2, h3 {
   width:100%;
   border-top: 1px solid #999;
   background-color: white;
+  padding: 1vh;
+}
+
+.footer-logo {
+  width: 25px;
 }
