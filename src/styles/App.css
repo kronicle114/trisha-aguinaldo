@@ -86,6 +86,9 @@ h2 {
 dt {
   padding-top: 10px;
 }
+.about-container {
+  text-align: center;
+}
 
 .resume {
   text-align: center;

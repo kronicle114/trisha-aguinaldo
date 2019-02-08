@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-
 import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Blog from './Blog';
 import Home from './Home';
-
 import logo from '../assets/t-alpha.svg';
 import twitter from '../assets/twitter.svg';
 import github from '../assets/github-icon.svg';
@@ -22,13 +20,8 @@ class App extends Component {
       <Router>
         <div className="App">
         <br/>
-        <br/>
-        <br/>
         <img src={logo} alt="logo" className="logo"/>
         <h1>Trisha Aguinaldo</h1>
-
-        <br/>
-        <br/>
         <Nav />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

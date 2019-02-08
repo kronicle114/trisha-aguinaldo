@@ -20,9 +20,11 @@ export default function AboutMe(props) {
         <p>
           My family moved from the Philippines to the U.S. to get away from poverty. We wanted a piece of that American Dream, so my parents pushed me toward a career in health care and education. After college, I’ve built a reputation as a creative problem solver and a reliable team player after working at a hospital for four years. But, at the end of the day being a hospital administrative assistant was a means to an end. I was not meeting my potential.
         </p>
+        <br/>
         <p>
           A year ago, I launched a WordPress website for my small business to promote my products. In the process, I realized that I wanted software development as my career. It's a challenging, creative, collaborative field. I love programming so much that I taught myself how to code for six months and then enrolled at an online full-stack course. 
         </p>
+        <br/>
         <p>
           I'm committed to switching careers as a Full Stack Web Developer because I want to merge my background in community health, education and software development. I'm one step closer to this goal by facilitating a Girls Who Code club in Boston,MA. I am excited to add my skills and unique experiences as a queer woman of color and contribute to open source apps.
         </p>       
