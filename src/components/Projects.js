@@ -20,9 +20,9 @@ export default function Projects(props) {
         <p>Produced the content (images, text, videos, and etc) for my home business: Sweet Toots Co-- handmade natural artisan soaps and other luxury bath items.</p>
         <a href="#placeholder" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
         </li>
-        <li className="projects">
+        {/* <li className="projects">
         <h3><a href="#gallery">Gallery</a></h3>
-          <ul className="gallery-list">
+          <ul className="gallery-list"> */}
              {/* <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2018/08/img_7037.jpg" alt="cupcake bathbomb"></img>
             </li>
@@ -53,12 +53,12 @@ export default function Projects(props) {
             <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2017/08/file_004-1.png" alt="geode"></img>
             </li> */}
-            <li className="gallery">
+            {/* <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2017/08/st-watermark.png" alt="logo"></img>
             </li>
             <li className="gallery">
               <img src="https://sweettootsco.files.wordpress.com/2017/08/cropped-file_000-3.png" alt="logo circle"></img>
-            </li>
+            </li> */}
             {/* <li className="gallery">
               <img src="" alt=""></img>
             </li>
@@ -77,8 +77,8 @@ export default function Projects(props) {
             <li className="gallery">
               <img src="" alt=""></img>
             </li> */}
-          </ul>
-        </li>
+          {/* </ul>
+        </li> */}
       </ul>
   </div>
   )

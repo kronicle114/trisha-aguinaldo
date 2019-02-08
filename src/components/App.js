@@ -33,11 +33,11 @@ class App extends Component {
         <footer className="site-footer">
           <div className="wrapper">
             <ul className="social-media-list">
-              <li className="footer-items">
+              {/* <li className="footer-items">
                 <a href="http://www.trisha-aguinaldo.com/">
                   © 2019 Trisha Aguinaldo
                 </a>
-              </li>
+              </li> */}
               <li className="footer-items">
                 <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">
                   <img className="footer-logo" src={twitter}alt="twitter logo"></img>

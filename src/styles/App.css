@@ -46,12 +46,19 @@ h1, h2, h3 {
 
 .about-container {
   padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%px;
 }
 
 .gallery-list .gallery img {
   width: 400px;
 }
 
+.contact-container, .projects-container, .blog-container {
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 /* ============== FOOTER ============== */
 .social-media-list {
@@ -64,9 +71,9 @@ h1, h2, h3 {
   display: block;
 }
 .site-footer {
-  position:fixed;
+  /* position:fixed;
   left:0px;
-  bottom:0px;
+  bottom:0px; */
   width:100%;
   border-top: 1px solid #999;
   background-color: white;
