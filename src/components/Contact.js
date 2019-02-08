@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/TA Web Dev Resume.pdf';
+import resume from '../assets/Resume.pdf';
 import map from '../assets/map.png';
 
 export default function Contact(props) {
