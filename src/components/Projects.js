@@ -14,10 +14,10 @@ export default function Projects(props) {
         {/* ================== PROJECT 1 ================== */}
         <li className="projects">
           <h3>
-            <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service Game</a>
+            <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service</a>
           </h3>
           <p>
-            <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
+            <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
           </p>
           <br />
           <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">
@@ -26,6 +26,7 @@ export default function Projects(props) {
 
           <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
           <br/>
+
         </li>
 
         {/* ================== PROJECT 2 ================== */}
