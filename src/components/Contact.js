@@ -1,5 +1,6 @@
 import React from 'react';
 import resume from '../assets/TA Web Dev Resume.pdf';
+import map from '../assets/map.png';
 
 export default function Contact(props) {
   return(
@@ -9,11 +10,11 @@ export default function Contact(props) {
       <p>
         <strong>Patricia "Trisha" Aguinaldo</strong> currently resides in Milton, MA. Feel free to contact her for any questions. Office hours are from 9-5 EST. She also volunteers at Girls Who Code Boston and regularly attends tech meetups in Boston.
         <br/>
-        Download her resume <a href={resume}>here</a>.
       </p>
+      <p className="resume">Download her resume <a href={resume}>here</a>.</p>
       </div>
       <div className="contacts-wrapper">
-        <ul>
+        <ul className="contact-list">
           <li className="contact-items">
             (857) 231-3620
           </li>
@@ -30,6 +31,7 @@ export default function Contact(props) {
             <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">Twitter</a>
           </li>
         </ul>
+        <img className="map" src={map} alt="OctoGun: Delivery Service"/>
       </div>
     </div>
   )

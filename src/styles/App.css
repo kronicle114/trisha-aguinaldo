@@ -68,17 +68,63 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-weight: 100;
+  padding: 1rem 0 1rem 0;
+  font-weight: 500;
   text-align: center;
 }
 
 .featured-list {
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+.featured-items {
+  border: 1px solid #504e4b;
 }
 
 dt {
   padding-top: 10px;
+}
+
+.resume {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.resume > a {
+  color: orange;
+}
+
+.resume > a:hover {
+  color:#504e4b;
+}
+
+.project-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.projects {
+  padding-top: 1rem;
+  border: 1px solid #504e4b;
+}
+
+.projects > a {
+  margin: 0;
+  font-weight: 500;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 1rem 0 0 0;
+  text-align: center;
+  font-weight: 500;
 }
 
 /* ============== FOOTER ============== */
@@ -108,3 +154,29 @@ dt {
 .footer-logo {
   width: 25px;
 }
+
+/* ======= IMGS ======= */
+
+.wc-img, .tagalog, .octo-img, .invaders, .quiz {
+  width: 95%;
+  padding: 20px 0 20px 0;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 2rem;
+}
+
+
+@media screen and (min-width: 700px) {
+  .wc-img, .tagalog, .octo-img, .invaders, .quiz {
+    padding: 1rem 0 1rem 0;
+    width: 60%;
+  }
+
+  .map {
+    width: 80%;
+  }
+} 
