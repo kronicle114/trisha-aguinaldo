@@ -94,11 +94,11 @@ dt {
 }
 
 .resume > a {
-  color: orange;
+  color: rgb(145, 83, 8);
 }
 
 .resume > a:hover {
-  color:#504e4b;
+  color:orange;
 }
 
 .project-list {
