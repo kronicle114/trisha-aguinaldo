@@ -21,8 +21,14 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+        <br/>
+        <br/>
+        <br/>
         <img src={logo} alt="logo" className="logo"/>
         <h1>Trisha Aguinaldo</h1>
+
+        <br/>
+        <br/>
         <Nav />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

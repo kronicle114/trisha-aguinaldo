@@ -31,7 +31,7 @@ export default function Contact(props) {
             <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">Twitter</a>
           </li>
         </ul>
-        <img className="map" src={map} alt="OctoGun: Delivery Service"/>
+        <img className="map" src={map} alt="Milton, MA static map"/>
       </div>
     </div>
   )
