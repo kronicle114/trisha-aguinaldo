@@ -7,7 +7,9 @@ export default function Nav(props) {
     <nav role="navigation" className="navbar">
      <ul className="main-nav">
        <li className="nav-items">
-         <Link to="/">Home</Link>
+         <Link to="/">
+          Home
+        </Link>
        </li>
        <li className="nav-items">
          <Link to="/about">About</Link>

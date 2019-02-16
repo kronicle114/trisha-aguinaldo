@@ -18,6 +18,16 @@ dt {
   margin: 0 auto;
 }
 
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.tech-stack-container {
+  width: 70%
+}
 
 /* Some vars */
 /* $background-color: hsl(50, 5, 97);
