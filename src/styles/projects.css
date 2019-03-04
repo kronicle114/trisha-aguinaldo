@@ -32,6 +32,7 @@
   display: block;
   margin: 0 auto;
   width: 95%;
+  max-width: 800px;
   padding-top: 32px;
 }
 

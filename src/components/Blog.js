@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/blog.css';
 
 export default function Blog(props) {
   return(
