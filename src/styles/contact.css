@@ -1,0 +1,16 @@
+.resume {
+  text-align: center;
+  padding-top: 16px;
+  font-weight: 500;
+}
+
+.resume > a {
+  color: #6666e0;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 16px 0 0 0;
+  text-align: center;
+  font-weight: 500;
+}

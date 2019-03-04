@@ -1,0 +1,47 @@
+.project-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.projects {
+  background-color: #f7f7f7;
+  padding-top: 5px;
+  border-radius: 8px;
+  margin: 15px auto;
+  max-width: 500px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+}
+
+.projects > a {
+  margin: 0;
+  font-weight: 500;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+}
+
+/* ======= IMGS ======= */
+
+.wc-img, .tagalog, .octo-img, .invaders, .quiz, .roadrate {
+  width: 95%;
+  padding: 0 10px;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 700px) {
+  .wc-img, .tagalog, .octo-img, .invaders, .quiz .roadrate {
+    padding: 16px 0 16px 0;
+    width: 60%;
+  }
+
+  .map {
+    width: 80%;
+  }
+} 

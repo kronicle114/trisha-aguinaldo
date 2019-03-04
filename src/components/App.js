@@ -6,7 +6,6 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Blog from './Blog';
 import Home from './Home';
-import logo from '../assets/t-alpha.svg';
 import twitter from '../assets/twitter.svg';
 import github from '../assets/github-icon.svg';
 import linkedin from '../assets/linkedin-icon.svg';
@@ -18,13 +17,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <div className="logo-wrapper">
-          <Link to="/">
-            <img src={logo} alt="logo" className="logo"/>
-            <h1>Trisha Aguinaldo</h1>
-          </Link>
-        </div> */}
-
         <Nav />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
@@ -60,15 +52,10 @@ class App extends Component {
                   <img className="footer-logo" src={email}alt="email logo"></img>
                 </a>
               </li>
-              {/* <li className="footer-items">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <img className="footer-logo" src={}alt=""></img>
-                </a>
-              </li> */}
             </ul>
           </div>
         </footer>
-        </div>
+      </div>
     );
   }
 }

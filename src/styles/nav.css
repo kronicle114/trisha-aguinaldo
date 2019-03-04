@@ -1,4 +1,9 @@
 /* ======= HEADER ======= */
+.main-nav {
+  padding: 0;
+  margin: 0 auto;
+}
+
 .navbar {
   justify-content: space-between;
   align-items: center;
@@ -6,7 +11,12 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #8DA45B;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+  padding-top: 5px;
+  background-color: #1D2636;
+  /* background-color: #F4F0EA; */
+  /* background-color: #e8e9e8; */
+  /* background-color: #8DA45B; */
 }
 
 .nav-items {
@@ -17,21 +27,29 @@
 }
 
 .nav-items a {
-  color: #e8e9e8;
+  /* color: #1D2636; */
+  color: #f9f9fe;
 }
 
 .nav-items > a:hover {
-  color: orange;
+  color: #6666e0;
 }
 
-h1 {
+/* ====== LOGO ====== */
+.logo-wrapper {
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.logo-wrapper h1 {
+  margin: 0;
   text-align: center;
   font-weight: 200;
   font-size: 16px;
+  color: #f9f9fe;
 }
 
 .logo {
   display: flex;
-  margin: 0 auto;
   max-width: 100px;
 }

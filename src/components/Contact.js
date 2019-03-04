@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../assets/Resume.pdf';
 import map from '../assets/map.png';
+import '../styles/contact.css';
 
 export default function Contact(props) {
   return(
@@ -9,7 +10,6 @@ export default function Contact(props) {
       <div className="contact-text">
       <p>
         <strong>Patricia "Trisha" Aguinaldo</strong> currently resides in Milton, MA. Feel free to contact her for any questions. Office hours are from 9-5 EST. She also volunteers at Girls Who Code Boston and regularly attends tech meetups in Boston.
-        <br/>
       </p>
       <p className="resume">Download her resume <a href={resume}>here</a>.</p>
       </div>

@@ -15,15 +15,13 @@ export default function Home(props) {
           <p>
             <strong>Description:</strong> Deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment. I developed the app from scratch over a 2-week period. The `Surprise` button and the `Search` feature queries the mLab database everytime an event happens. 
           </p>
-          <br />
+
           <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer">
             GitHub Repo
           </a>
-          <br/>
           <a href="https://protected-depths-66567.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             Deployed Version
           </a>
-          <br/>
           <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer">
             <img className="wc-img" src={wc} alt="What's Cooking App"/>
           </a>

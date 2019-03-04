@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from '../assets/profile.jpg';
-import '../styles/about-me.css';
+import '../styles/about.css';
 
 
 export default function AboutMe(props) {
@@ -17,18 +17,9 @@ export default function AboutMe(props) {
       </blockquote>
 
       <div className="about-blurb">
-        {/* <p>
-          My family moved from the Philippines to the U.S. to get away from poverty. We wanted a piece of that American Dream, so my parents pushed me toward a career in health care and education. After college, I’ve built a reputation as a creative problem solver and a reliable team player after working at a hospital for four years. But, at the end of the day being a hospital administrative assistant was a means to an end. I was not meeting my potential.
-        </p> */}
-        {/* <br/>
         <p>
-          A year ago, I launched a WordPress website for my small business to promote my products. In the process, I realized that I wanted software development as my career. It's a challenging, creative, collaborative field. I love programming so much that I taught myself how to code for six months and then enrolled at an online full-stack course. 
+          I am a full stack developer and a recent graduate of the Engineering Immersion program at Thinkful. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I like creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I'm just beginning my journey and I'm searching for the right team to help nurture and develop my growth as a programmer. 
         </p>
-        <br/> */}
-        {/* <p>
-          I'm committed to switching careers as a Full Stack Web Developer because I want to merge my background in community health, education and software development. I'm one step closer to this goal by facilitating a Girls Who Code club in Boston,MA. I am excited to add my skills and unique experiences as a queer woman of color and contribute to open source apps.
-        </p>        */}
-        <p>I've always been fascinated by the process of growth. How do people grow to be the way they are? What helps them become their best possible version? I decided to become a developer and educator to help people reach their potential by creating apps that they can use to make a positive change in their life and in their community. I'm just beginning my journey and I'm searching for the right team to help nuture and develop my growth as a programmer. </p>
       </div>
       <div className="tech-stack-container">
         <h3>Skills</h3>

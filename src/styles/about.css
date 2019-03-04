@@ -11,6 +11,7 @@ dt {
 
 .about-container {
   margin: 10px;
+  text-align: center;
 }
 
 .profile-img {
@@ -27,19 +28,6 @@ dt {
 
 .tech-stack-container {
   width: 70%
-}
-
-/* Some vars */
-/* $background-color: hsl(50, 5, 97);
-$black: hsl(200, 40, 10);
-$white: $background-color;
-$base-font-size: 2.4em;
-$base-line-height: 1.5em; */
-
-.groucho {
-  position: relative;
-  font-size: 32px;
-  line-height: 16px;
 }
 
 blockquote footer {
@@ -63,9 +51,9 @@ blockquote:before {
 blockquote:after {
   content: close-quote;
   position: absolute;
-  top: 0.28em;
+  top: 5px;
   right: 0;
-  font-size: 6em;
+  font-size: 5px;
   font-style: italic;
   color: darken(hsl(50, 5, 97), 7%);
   z-index: -1;
@@ -77,6 +65,6 @@ blockquote:after {
   vertical-align: bottom;
   font-size: 64px;
   top: 8px;
-  color: #8DA45B;
+  color: #6666e0;
   position: relative;
 }
