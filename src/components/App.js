@@ -18,12 +18,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="logo-wrapper">
+        {/* <div className="logo-wrapper">
           <Link to="/">
             <img src={logo} alt="logo" className="logo"/>
             <h1>Trisha Aguinaldo</h1>
           </Link>
-        </div>
+        </div> */}
 
         <Nav />
         <Route exact path="/" component={Home} />

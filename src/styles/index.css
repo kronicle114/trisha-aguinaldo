@@ -1,6 +1,5 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
-  box-sizing: border-box;
   font-family: markpro,Helvetica Neue,helvetica,sans-serif;
   margin: 0;
 	padding: 0;
@@ -10,8 +9,9 @@ html {
   vertical-align: baseline;
   background-color: #F4F0EA;
 }
+
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 * {
