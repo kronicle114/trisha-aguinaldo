@@ -12,16 +12,19 @@ import github from '../assets/github-icon.svg';
 import linkedin from '../assets/linkedin-icon.svg';
 import email from '../assets/gmail.svg';
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-        <br/>
-        <img src={logo} alt="logo" className="logo"/>
-        <h1>Trisha Aguinaldo</h1>
+      <div className="App">
+        <div className="logo-wrapper">
+          <Link to="/">
+            <img src={logo} alt="logo" className="logo"/>
+            <h1>Trisha Aguinaldo</h1>
+          </Link>
+        </div>
+
         <Nav />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
@@ -32,11 +35,11 @@ class App extends Component {
         <footer className="site-footer" role="contentinfo">
           <div className="wrapper">
             <ul className="social-media-list" aria-label="Footer contact list">
-              {/* <li className="footer-items">
+              <li className="footer-items">
                 <a href="http://www.trisha-aguinaldo.com/">
                   © 2019 Trisha Aguinaldo
                 </a>
-              </li> */}
+              </li>
               <li className="footer-items" aria-label="contact list item">
                 <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">
                   <img className="footer-logo" src={twitter}alt="twitter logo"></img>
@@ -66,8 +69,6 @@ class App extends Component {
           </div>
         </footer>
         </div>
-      </Router>
-
     );
   }
 }
