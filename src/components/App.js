@@ -11,7 +11,7 @@ import github from '../assets/github-icon.svg';
 import linkedin from '../assets/linkedin-icon.svg';
 import email from '../assets/gmail.svg';
 
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {

@@ -1,11 +1,6 @@
 /* ============== BODY ============== */
-/* .App {
-  background-color: #F4F0EA;
-} */
-
 a {
   text-decoration: none;
-  /* color: rgb(46, 45, 45); */
   color:#1D2636;
 }
 
@@ -40,10 +35,6 @@ h2 {
   text-align: center;
 }
 
-.featured-items {
-  border: 1px solid #504e4b;
-}
-
 dt {
   padding-top: 10px;
 }
@@ -68,11 +59,15 @@ dt {
   bottom:0px;
   width:100%;
   /* border-top: 1px solid #999; */
-  /* background-color: #e8e9e8; */
-  background: url('../assets/textured-paper.png') repeat, rgba(189, 105, 130,0.3);
-  padding: 10px;
+  background-color: #e8e9e8;
+  /* background: url('../assets/textured-paper.png') repeat, rgba(189, 105, 130,0.9); */
 }
 
 .footer-logo {
   width: 25px;
 }
+
+.ombre-bar {
+  padding: 2px;
+  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
+  }

@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.projects {
+.projects, .featured-items {
   background-color: #f7f7f7;
   padding-top: 5px;
   border-radius: 8px;

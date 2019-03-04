@@ -20,22 +20,16 @@ export default function Projects(props) {
           </h3>
           <img className="roadrate" src={roadrate} alt="RoadRate"/>
           <p>
-            <strong>Description:</strong> Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely. Passwords are hashed. 
+            <strong>Description:</strong> Collaborated with 3 other developers to deploy a full-stack app. With <strong>RoadRate</strong>, you can review other drivers anonymously. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
          
-          <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer">
             GitHub Repo
           </a>
          
-          <a href="https://frozen-garden-93870.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://road-rate-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             Deployed Version
           </a>
-
-          {/* 
-          <p>
-            <strong>Known Issues:</strong> Logging in will take a while. I'm still working on incorporating a loading spinner so that the user knows that the login request is pending. Right now, if you login, it will seem like the app froze, but it's just taking a few seconds for Heroku to post the login request.
-          </p>
-           */}
         </li>
 
         {/* ================== PROJECT 2 ================== */}

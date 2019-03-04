@@ -1,7 +1,8 @@
 .profile-img {
   display: inline-block;
+  margin: 0 auto;
   width: 50%;
-  max-width: 300px;
+  max-width: 200px;
   border-radius: 50%;
 }
 
@@ -12,11 +13,6 @@ dt {
 .about-container {
   margin: 10px;
   text-align: center;
-}
-
-.profile-img {
-  display: block;
-  margin: 0 auto;
 }
 
 .skills {
@@ -40,8 +36,10 @@ blockquote footer {
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
+  border-radius: 8px;
   margin: 16px 10px;
-  padding: 8px 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+  /* padding: 8px 10px; */
 }
 
 blockquote:before {
@@ -51,20 +49,22 @@ blockquote:before {
 blockquote:after {
   content: close-quote;
   position: absolute;
-  top: 5px;
-  right: 0;
-  font-size: 5px;
   font-style: italic;
   color: darken(hsl(50, 5, 97), 7%);
   z-index: -1;
 }
 
-blockquote:before,
-blockquote:after {
+blockquote:before, blockquote:after {
   display: inline-block;
   vertical-align: bottom;
-  font-size: 64px;
-  top: 8px;
+  font-size: 32px;
+  top: 10px;
   color: #6666e0;
   position: relative;
+}
+
+.blurb {
+  margin: 10px;
+  padding: 20px;
+  max-width: 90%;
 }
