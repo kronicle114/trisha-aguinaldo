@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  background-color: #8DA45B;
 }
 
 .nav-items {
@@ -13,6 +14,10 @@
   list-style: none outside;
   padding: 10px;
   text-align: left;
+}
+
+.nav-items a {
+  color: #e8e9e8;
 }
 
 .nav-items > a:hover {

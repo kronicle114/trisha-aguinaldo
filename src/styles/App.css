@@ -1,16 +1,12 @@
 /* ============== BODY ============== */
-.App {
+/* .App {
   background-color: #F4F0EA;
-}
-
-body {
-  background-color: #F4F0EA;;
-  color: black;
-}
+} */
 
 a {
   text-decoration: none;
-  color: rgb(46, 45, 45);
+  /* color: rgb(46, 45, 45); */
+  color:#1D2636;
 }
 
 a:hover {
@@ -102,7 +98,7 @@ dt {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  background-color: #F4F0EA;
+  /* background-color: #F4F0EA; */
 }
 
 .footer-items {
@@ -115,7 +111,7 @@ dt {
   bottom:0px;
   width:100%;
   border-top: 1px solid #999;
-  background-color: #F4F0EA;
+  background-color: #e8e9e8;
   padding: 1vh;
 }
 

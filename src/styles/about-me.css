@@ -38,13 +38,12 @@ $base-line-height: 1.5em; */
 
 .groucho {
   position: relative;
-  font-family: 'Sanchez', serif;
-  font-size: 2.4em;
-  line-height: 1.5em;
+  font-size: 32px;
+  line-height: 16px;
 }
 
 blockquote footer {
-  font-size: 0.6em;
+  font-size: 8px;
   font-weight: 700;
   color: darken(hsl(50, 5, 97), 15%);
   float: right;
@@ -53,8 +52,8 @@ blockquote footer {
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin: 16px 10px;
+  padding: 8px 10px;
 }
 
 blockquote:before {
@@ -76,8 +75,8 @@ blockquote:before,
 blockquote:after {
   display: inline-block;
   vertical-align: bottom;
-  color: orange;
-  font-size: 4em;
-  top: .2em;
+  font-size: 64px;
+  top: 8px;
+  color: #8DA45B;
   position: relative;
 }
