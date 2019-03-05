@@ -9,8 +9,9 @@ blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
   border-radius: 8px;
-  margin: 16px 0;
+  margin: 16px auto;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+  max-width: 600px;
   /* padding: 8px 10px; */
 }
 

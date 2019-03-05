@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '../assets/profile.jpg';
+import soaps from '../assets/soaps.jpg';
 import '../styles/about.css';
 
 export default function AboutMe(props) {
@@ -16,9 +17,12 @@ export default function AboutMe(props) {
 
         <div className="bio">
           <p>
-            A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I love coding because I am addicted to solving challenging problems. I like creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I'm just beginning my journey and I'm searching for the right team to help nurture and develop my growth as a programmer. 
+            A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I love coding because solving challenging problems gives me life. I also enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I'm just beginning my journey and I'm searching for the right team to help nurture and develop my growth as a programmer. 
           </p>
         </div>
+
+        <img className="pics" src="https://sweettootsco.files.wordpress.com/2018/08/trishiceland.jpg" alt="Trisha's happy place" />
+        <img className="pics" src={soaps} alt="Soaps" />
 
         {/* ======= TECH STACK ======= */}
         <div className="tech-stack-container">
@@ -56,7 +60,6 @@ export default function AboutMe(props) {
               <dd><i className="devicon-chrome-plain colored"></i> Chrome Dev Tools</dd>
               <dd><i className="devicon-travis-plain colored"/> Travis CI</dd>
               <dd><i className="devicon-mocha-plain colored"></i> Mocha / Chai / Chai-HTTP</dd>
-              <dd> Enzyme</dd>
           </dl>
         </div>
 
@@ -64,10 +67,14 @@ export default function AboutMe(props) {
         <div className="education-container">
           <h3>Education</h3>
           <dl>
-            <dt>Thinkful.com</dt>
-            <dd>Full Stack Web Development Course | March 2019</dd>
+            <dt>Thinkful  | March 2019</dt>
+            <dd>Full Stack Web Development Course</dd>
+            <dt>Fitchburg State University | Winter 2018 </dt>
+            <dd>Sheltered English Immersion Endorsed</dd>
             <dt>University of Massachusetts at Amherst | May 2015</dt>
             <dd>Bachelor of Science (BS), Public Health and Sociology</dd>
+            <dd>Asian & Asian-American Studies Certificate</dd>
+            <dd>Educator Advocate (Certified)</dd>
           </dl>
         </div>
 

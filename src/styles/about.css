@@ -39,10 +39,17 @@ dt {
 }
 
 .bio, .blurb {
-  padding-top: 10px;
+  padding: 10px 0;
   width: 85%;
 }
 
 .tech-stack-container {
   padding-top: 10px;
+}
+
+.pics {
+  margin: 10px auto;
+  display: block;
+  border-radius: 8px;
+  max-width: 400px;
 }
