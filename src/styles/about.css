@@ -51,5 +51,10 @@ dt {
   margin: 10px auto;
   display: block;
   border-radius: 8px;
+  width: 90%;
   max-width: 400px;
+}
+
+.education-container {
+  width: 90%;
 }
