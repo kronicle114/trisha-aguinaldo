@@ -7,6 +7,7 @@
 .projects, .featured-items {
   background-color: #f7f7f7;
   padding-top: 5px;
+  padding-bottom: 15px;
   border-radius: 8px;
   margin: 15px auto;
   max-width: 600px;
@@ -23,6 +24,11 @@
 
 .projects p {
   padding: 10px;
+}
+
+.project-icon {
+  width: 25px;
+  display: inline-block;
 }
 
 /* ======= IMGS ======= */

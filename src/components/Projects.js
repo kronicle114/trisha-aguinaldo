@@ -5,6 +5,9 @@ import invaders from '../assets/screen-shot.png';
 import quiz from '../assets/quiz.png';
 import octo from '../assets/octo.png';
 import roadrate from '../assets/roadrate.png';
+import github from '../assets/github-icon.svg';
+import heroku from '../assets/heroku-icon.svg';
+import replit from '../assets/replit-icon.svg';
 import '../styles/projects.css';
 
 export default function Projects(props) {
@@ -23,12 +26,12 @@ export default function Projects(props) {
             <strong>Description:</strong> Collaborated with 3 other developers to deploy a full-stack app. With <strong>RoadRate</strong>, you can review other drivers anonymously. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
          
-          <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer">
-            GitHub Repo
+          <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github} alt="github icon"/>
           </a>
          
-          <a href="https://road-rate-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            Deployed Version
+          <a href="https://road-rate-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" aria-label="deployed heroku icon link">
+            <img className="project-icon" src={heroku} alt="heroku icon"/>
           </a>
         </li>
 
@@ -41,8 +44,8 @@ export default function Projects(props) {
           <p>
             <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
           </p>
-          <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">
-            GitHub Repo
+          <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github} alt="github icon"/>
           </a>
         </li>
 
@@ -56,12 +59,12 @@ export default function Projects(props) {
             <strong>Description:</strong> Deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment. I developed the app from scratch over a 2-week period. The `Surprise` button and the `Search` feature queries the mLab database everytime an event happens. 
           </p>
          
-          <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer">
-            GitHub Repo
+          <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github} alt="github icon"/>
           </a>
         
-          <a href="https://protected-depths-66567.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            Deployed Version
+          <a href="https://protected-depths-66567.herokuapp.com/" target="_blank" rel="noopener noreferrer" aria-label="deployed heroku icon link">
+            <img className="project-icon" src={heroku} alt="heroku icon"/>
           </a>
           {/*
           <p>
@@ -80,12 +83,12 @@ export default function Projects(props) {
             <strong>Description:</strong> Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely. Passwords are hashed. 
           </p>
          
-          <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">
-            GitHub Repo
+          <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github} alt="github icon"/>
           </a>
          
-          <a href="https://frozen-garden-93870.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            Deployed Version
+          <a href="https://frozen-garden-93870.herokuapp.com/" target="_blank" rel="noopener noreferrer" aria-label="deployed heroku icon link">
+            <img className="project-icon" src={heroku} alt="heroku icon"/>
           </a>
 
           {/* 
@@ -105,8 +108,8 @@ export default function Projects(props) {
             <strong>Description:</strong> Collaborated with a developer and a media designer over a weekend to build a drag and drop game for Global Game Jam 2019. Used JavaScript's Phaser3.JS with Matter.JS as the physics engine.
           </p>
          
-          <a href="https://github.com/kronicle114/house-invaders/tree/master" target="_blank" rel="noopener noreferrer">
-            GitHub Repo
+          <a href="https://github.com/kronicle114/house-invaders/tree/master" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github}alt="github icon"/>
           </a>
          
           {/* 
@@ -123,8 +126,12 @@ export default function Projects(props) {
           </h3>
           <img className="quiz" src={quiz} alt="Baby Animal Quiz App"/>
           <p>Basic quiz app using the HTML, CSS, JavaScript/jQuery.</p>
-          <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer">Repl</a>
-          <a href="https://github.com/kronicle114/babyAnimalQuizApp" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer" aria-label="Replit icon link">
+            <img className="project-icon" src={replit} alt="replit icon" />
+          </a>
+          <a href="https://github.com/kronicle114/babyAnimalQuizApp" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github} alt="github icon"/>
+          </a>
           
         </li>
       </ul>
