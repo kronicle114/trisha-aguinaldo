@@ -19,3 +19,7 @@
   width: 20px;
   padding-right: 5px;
 }
+
+.contact-contents p {
+  width: 85%;
+}

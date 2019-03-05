@@ -1,4 +1,3 @@
-
 blockquote footer {
   font-size: 8px;
   font-weight: 700;
@@ -10,7 +9,7 @@ blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
   border-radius: 8px;
-  margin: 16px 10px;
+  margin: 16px 0;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
   /* padding: 8px 10px; */
 }
@@ -34,4 +33,13 @@ blockquote:before {
   top: 10px;
   color: #6666e0;
   position: relative;
+}
+
+.articles {
+ padding-bottom: 10px;
+ list-style-type: disc;
+}
+
+.blog-contents {
+  padding-top: 10px;
 }

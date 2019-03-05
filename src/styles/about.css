@@ -26,10 +26,12 @@ dt {
   width: 70%
 }
 
-.about-contents {
+.about-contents, .blog-contents, .contact-contents {
   background-color: #f7f7f7;
+  border-radius: 8px;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
   padding: 10px 0;
+  max-width: 600px;
 }
 
 .blurb {
@@ -39,4 +41,8 @@ dt {
 .bio, .blurb {
   padding-top: 10px;
   width: 85%;
+}
+
+.tech-stack-container {
+  padding-top: 10px;
 }
