@@ -11,12 +11,12 @@ export default function AboutMe(props) {
         />
       
         <div className="blurb">
-          Hi! I'm Trisha, a full stack developer and a recent graduate of the Engineering Immersion program at Thinkful.
+          Hi! I'm Trisha, a full stack developer with a background in healthcare and education. I recently graduated of the Engineering Immersion program at Thinkful. 
         </div>
 
         <div className="bio">
           <p>
-            A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I like creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I'm just beginning my journey and I'm searching for the right team to help nurture and develop my growth as a programmer. 
+            A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I love coding because I am addicted to solving challenging problems. I like creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I'm just beginning my journey and I'm searching for the right team to help nurture and develop my growth as a programmer. 
           </p>
         </div>
 
@@ -66,7 +66,7 @@ export default function AboutMe(props) {
           <dl>
             <dt>Thinkful.com</dt>
             <dd>Full Stack Web Development Course | March 2019</dd>
-            <dt>University of Massachusetts at Amherst</dt>
+            <dt>University of Massachusetts at Amherst | May 2015</dt>
             <dd>Bachelor of Science (BS), Public Health and Sociology</dd>
           </dl>
         </div>
