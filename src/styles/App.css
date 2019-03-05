@@ -4,7 +4,7 @@ a {
   color:#1D2636;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #6666e0;
 }
 
@@ -58,9 +58,7 @@ dt {
   left:0px;
   bottom:0px;
   width:100%;
-  /* border-top: 1px solid #999; */
   background-color: #e8e9e8;
-  /* background: url('../assets/textured-paper.png') repeat, rgba(189, 105, 130,0.9); */
 }
 
 .footer-logo {
