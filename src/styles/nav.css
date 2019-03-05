@@ -13,9 +13,6 @@
   width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
   background-color: #1D2636;
-  /* background-color: #F4F0EA; */
-  /* background-color: #e8e9e8; */
-  /* background-color: #8DA45B; */
 }
 
 .nav-items {
@@ -26,7 +23,6 @@
 }
 
 .nav-items a {
-  /* color: #1D2636; */
   color: #f9f9fe;
 }
 
@@ -46,6 +42,12 @@
   font-weight: 200;
   font-size: 16px;
   color: #f9f9fe;
+}
+
+.logo-wrapper h1:hover {
+  background: -webkit-linear-gradient(  #d32daf, #629df8, #7ff7ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .logo {

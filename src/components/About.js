@@ -12,7 +12,7 @@ export default function AboutMe(props) {
         />
       
         <div className="blurb">
-          Hi! I'm Trisha, a full stack developer with a background in healthcare and education. I recently graduated of the Engineering Immersion program at Thinkful. 
+          Hi! I'm Trisha, a full stack developer with a background in healthcare and education. I recently graduated from the Engineering Immersion program at Thinkful. 
         </div>
 
         <div className="bio">
