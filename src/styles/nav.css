@@ -1,4 +1,13 @@
 /* ======= HEADER ======= */
+nav {
+  z-index: 99;
+}
+
+.ombre-bar {
+  padding: 2px;
+  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
+}
+
 .nav-list {
   padding: 0;
   margin: 0 auto;
