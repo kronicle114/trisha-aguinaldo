@@ -8,9 +8,11 @@ import roadrate from '../assets/roadrate.png';
 import github from '../assets/github-icon.svg';
 import heroku from '../assets/heroku-icon.svg';
 import replit from '../assets/replit-icon.svg';
+import pygame from '../assets/pygame.png';
+import phaser from '../assets/phaser.png';
 import '../styles/projects.css';
 
-export default function Projects(props) {
+export default function Projects () {
   return(
     <section className="projects-container">
       <h2 id="projects">Projects</h2>
@@ -29,6 +31,7 @@ export default function Projects(props) {
               <div className="stack">
               <ul className="stack-list">
                 <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-react-original colored"/></li>
                 <li><i className="devicon-mongodb-plain colored"></i> </li>
                 <li><i className="devicon-nodejs-plain colored"></i></li>
               </ul>
@@ -62,9 +65,10 @@ export default function Projects(props) {
             <div className="overlay">
               <div className="stack">
               <ul className="stack-list">
-                <li><i className="devicon-javascript-plain colored"></i></li>
-                <li><i className="devicon-mongodb-plain colored"></i> </li>
-                <li><i className="devicon-nodejs-plain colored"></i></li>
+                <li><i className="devicon-python-plain colored"></i></li>
+                <li>
+                  <img className="pygame" src={pygame} alt="pygame icon" />
+                </li>
               </ul>
               </div>
             </div>
@@ -92,6 +96,10 @@ export default function Projects(props) {
               <div className="stack">
               <ul className="stack-list">
                 <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-react-original colored"></i></li>
+                <li>
+                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                </li>
                 <li><i className="devicon-mongodb-plain colored"></i> </li>
                 <li><i className="devicon-nodejs-plain colored"></i></li>
               </ul>
@@ -131,6 +139,10 @@ export default function Projects(props) {
               <div className="stack">
               <ul className="stack-list">
                 <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-react-original colored"></i></li>
+                <li>
+                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                </li>
                 <li><i className="devicon-mongodb-plain colored"></i> </li>
                 <li><i className="devicon-nodejs-plain colored"></i></li>
               </ul>
@@ -163,7 +175,21 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/kronicle114/house-invaders/tree/master" target="_blank" rel="noopener noreferrer">House Invaders</a>
           </h3>
-          <img className="invaders" src={invaders} alt="House Invaders"/>
+   
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="invaders" src={invaders} alt="House Invaders"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><img src={phaser} alt="phasher logo" /></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Collaborated with a developer and a media designer over a weekend to build a drag and drop game for Global Game Jam 2019. Used JavaScript's Phaser3.JS with Matter.JS as the physics engine.
           </p>
@@ -184,7 +210,21 @@ export default function Projects(props) {
           <h3>
             <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer">Baby Animal Quiz App</a>
           </h3>
+             
+          {/* PROJECT IMAGE */}
+          <div className="container">
           <img className="quiz" src={quiz} alt="Baby Animal Quiz App"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-jquery-plain colored"></i> </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>Basic quiz app using the HTML, CSS, JavaScript/jQuery.</p>
           <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer" aria-label="Replit icon link">
             <img className="project-icon" src={replit} alt="replit icon" />
