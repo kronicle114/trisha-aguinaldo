@@ -9,16 +9,15 @@ import '../styles/contact.css';
 
 export default function Contact(props) {
   return(
-    <div className="contact-container">
+    <section className="contact-container">
       <h2>Contact</h2>
       <div className="contact-contents">
-        <p>
-          <strong>Patricia "Trisha" Aguinaldo</strong> currently resides in Milton, MA. Feel free to contact her for any questions. Office hours are from 9-5 EST. She regularly attends tech meetups in Boston and volunteers at Girls Who Code & Code for Boston.
-        </p>
         <p className="resume">
-          Download her resume <a href={resume}>here</a>
+          Download my resume <a href={resume}>here</a>
         </p>
-
+        <p className="contact-blurb">
+          I regularly attend tech meetups in Boston and volunteer at Girls Who Code & Code for Boston. Holler @ me if you've got any questions:
+        </p>
         <div className="contacts-wrapper">
           <ul className="contact-list">
             <li className="contact-items">
@@ -49,6 +48,6 @@ export default function Contact(props) {
           <img className="map" src={map} alt="Milton, MA static map"/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

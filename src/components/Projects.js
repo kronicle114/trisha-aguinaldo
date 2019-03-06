@@ -8,12 +8,14 @@ import roadrate from '../assets/roadrate.png';
 import github from '../assets/github-icon.svg';
 import heroku from '../assets/heroku-icon.svg';
 import replit from '../assets/replit-icon.svg';
+import pygame from '../assets/pygame.png';
+import phaser from '../assets/phaser.png';
 import '../styles/projects.css';
 
-export default function Projects(props) {
+export default function Projects () {
   return(
-    <div className="projects-container">
-      <h2>Projects</h2>
+    <section className="projects-container">
+      <h2 id="projects">Projects</h2>
       <ul className="project-list">
 
          {/* ================== PROJECT 1 ================== */}
@@ -21,7 +23,23 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer">RoadRate</a>
           </h3>
-          <img className="roadrate" src={roadrate} alt="RoadRate"/>
+
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="roadrate" src={roadrate} alt="RoadRate"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-react-original colored"/></li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Collaborated with 3 other developers to deploy a full-stack app. With <strong>RoadRate</strong>, you can review other drivers anonymously. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
@@ -40,7 +58,23 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service</a>
           </h3>
-          <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
+
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-python-plain colored"></i></li>
+                <li>
+                  <img className="pygame" src={pygame} alt="pygame icon" />
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
           </p>
@@ -54,7 +88,26 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/trisha-wc-client" target="_blank" rel="noopener noreferrer">What's Cooking</a>
           </h3>
-          <img className="wc-img" src={wc} alt="What's Cooking App"/>
+          
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="wc-img" src={wc} alt="What's Cooking App"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-react-original colored"></i></li>
+                <li>
+                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                </li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment. I developed the app from scratch over a 2-week period. The `Surprise` button and the `Search` feature queries the mLab database everytime an event happens. 
           </p>
@@ -78,7 +131,26 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">Tagalog Teacher</a>
           </h3>
-          <img className="tagalog" src={tagalog} alt="Tagalog Teacher"/>
+          
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="tagalog" src={tagalog} alt="Tagalog Teacher"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-react-original colored"></i></li>
+                <li>
+                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                </li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely. Passwords are hashed. 
           </p>
@@ -103,7 +175,21 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/kronicle114/house-invaders/tree/master" target="_blank" rel="noopener noreferrer">House Invaders</a>
           </h3>
-          <img className="invaders" src={invaders} alt="House Invaders"/>
+   
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="invaders" src={invaders} alt="House Invaders"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><img src={phaser} alt="phasher logo" /></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Collaborated with a developer and a media designer over a weekend to build a drag and drop game for Global Game Jam 2019. Used JavaScript's Phaser3.JS with Matter.JS as the physics engine.
           </p>
@@ -124,7 +210,21 @@ export default function Projects(props) {
           <h3>
             <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer">Baby Animal Quiz App</a>
           </h3>
+             
+          {/* PROJECT IMAGE */}
+          <div className="container">
           <img className="quiz" src={quiz} alt="Baby Animal Quiz App"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-jquery-plain colored"></i> </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>Basic quiz app using the HTML, CSS, JavaScript/jQuery.</p>
           <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer" aria-label="Replit icon link">
             <img className="project-icon" src={replit} alt="replit icon" />
@@ -135,6 +235,6 @@ export default function Projects(props) {
           
         </li>
       </ul>
-  </div>
+  </section>
   )
 }

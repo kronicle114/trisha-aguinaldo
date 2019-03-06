@@ -1,11 +1,17 @@
 /* ============== BODY ============== */
+.home {
+  padding-bottom: 50px;
+}
+
 a {
   text-decoration: none;
   color:#1D2636;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #6666e0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 h1, h2, h3 {
@@ -16,11 +22,11 @@ h1, h2, h3 {
   width: 400px;
 }
 
-.about-container, .contact-container, .projects-container, .blog-container, .featured  {
+.about-container, .projects-container, .blog-container, .contact-container {
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 h2 {
@@ -46,10 +52,10 @@ dt {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  /* background-color: #F4F0EA; */
 }
 
 .footer-items {
+  font-size: 10px;
   display: block;
   padding: 10px;
 }
@@ -58,16 +64,9 @@ dt {
   left:0px;
   bottom:0px;
   width:100%;
-  /* border-top: 1px solid #999; */
   background-color: #e8e9e8;
-  /* background: url('../assets/textured-paper.png') repeat, rgba(189, 105, 130,0.9); */
 }
 
 .footer-logo {
   width: 25px;
 }
-
-.ombre-bar {
-  padding: 2px;
-  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
-  }

@@ -8,11 +8,20 @@
   color: #6666e0;
 }
 
+.contact-container {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
 .contact-list {
   margin: 0;
-  padding: 16px 0 0 0;
+  padding: 5px 0 0 0;
   text-align: center;
   font-weight: 500;
+}
+
+.contact-items {
+  line-height: 200%;
 }
 
 .contact-icon {
@@ -22,4 +31,8 @@
 
 .contact-contents p {
   width: 85%;
+}
+
+.contact-blurb {
+  padding: 10px;
 }
