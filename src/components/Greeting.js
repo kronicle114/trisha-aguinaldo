@@ -4,10 +4,6 @@ import '../styles/greeting.css';
 export default function Greeting() {
   return(
     <div className="greeting">
-      {/* <p className="blurb">
-        Hi! I'm Trisha, a full stack developer with a background in healthcare and education.
-      </p> */}
-
       <div className="animate color-delay">
         <span>H</span>
         <span>e</span>
@@ -25,6 +21,10 @@ export default function Greeting() {
         <span>d</span>
         <span>o</span> */}
       </div> 
+      <p className="blurb">
+        I'm <span className="highlight">Patricia Aguinaldo</span>, a full stack developer with a background in healthcare and education.
+      </p>
+      <a href="#about">View My Work</a>
     </div>
   )
 }
