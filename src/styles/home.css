@@ -92,9 +92,9 @@
   99% {
     transform: translate(0) scale(1.2);
     color: #d32daf;
-    background: -webkit-linear-gradient(  #d32daf, #629df8, #7ff7ad);
+    /* background: -webkit-linear-gradient(  #d32daf, #629df8, #7ff7ad);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
   }
 
   100% {
