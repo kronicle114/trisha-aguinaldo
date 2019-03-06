@@ -91,9 +91,8 @@
     animation-delay: .7s;
 }
 .animate span:nth-of-type(16) {
-    animation-delay: .75s;
+  animation-delay: .75s;
 }
-
 
 /* ======== START ANIMATION  ======== */
 .color-delay span {
