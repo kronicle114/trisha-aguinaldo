@@ -28,6 +28,8 @@
 
 .nav-items > a:hover, .nav-items > a:focus {
   color: #6666e0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 /* ====== LOGO ====== */
@@ -53,6 +55,8 @@
   background: -webkit-linear-gradient(  #d32daf, #629df8, #7ff7ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #6666e0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 .ombre-bar {

@@ -21,16 +21,25 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer">RoadRate</a>
           </h3>
-          <img className="roadrate" src={roadrate} alt="RoadRate"/>
+
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="roadrate" src={roadrate} alt="RoadRate"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Collaborated with 3 other developers to deploy a full-stack app. With <strong>RoadRate</strong>, you can review other drivers anonymously. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
-
-          <ul>
-            <li><i className="devicon-javascript-plain colored"></i></li>
-            <li><i className="devicon-mongodb-plain colored"></i> </li>
-            <li><i className="devicon-nodejs-plain colored"></i></li>
-          </ul>
          
           <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
             <img className="project-icon" src={github} alt="github icon"/>
@@ -46,7 +55,22 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service</a>
           </h3>
-          <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
+
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
           </p>
@@ -60,7 +84,22 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/trisha-wc-client" target="_blank" rel="noopener noreferrer">What's Cooking</a>
           </h3>
-          <img className="wc-img" src={wc} alt="What's Cooking App"/>
+          
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="wc-img" src={wc} alt="What's Cooking App"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment. I developed the app from scratch over a 2-week period. The `Surprise` button and the `Search` feature queries the mLab database everytime an event happens. 
           </p>
@@ -84,7 +123,22 @@ export default function Projects(props) {
           <h3>
             <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">Tagalog Teacher</a>
           </h3>
-          <img className="tagalog" src={tagalog} alt="Tagalog Teacher"/>
+          
+          {/* PROJECT IMAGE */}
+          <div className="container">
+            <img className="tagalog" src={tagalog} alt="Tagalog Teacher"/>
+            <div className="overlay">
+              <div className="stack">
+              <ul className="stack-list">
+                <li><i className="devicon-javascript-plain colored"></i></li>
+                <li><i className="devicon-mongodb-plain colored"></i> </li>
+                <li><i className="devicon-nodejs-plain colored"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+         
+          {/* PROJECT DESCRIPTION */}
           <p>
             <strong>Description:</strong> Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely. Passwords are hashed. 
           </p>

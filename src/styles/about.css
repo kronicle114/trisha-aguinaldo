@@ -8,6 +8,11 @@
 
 dt {
   font-weight: bolder;
+  padding: 0 10px;
+}
+
+.about-contents dd {
+  padding-top: 5px;
 }
 
 .about-container {
@@ -26,10 +31,12 @@ dt {
 }
 
 .tech-stack-container {
-  width: 70%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  text-align: left;
+  margin: 0 auto;
 }
 
 .about-contents, .blog-contents, .contact-contents {
@@ -37,7 +44,7 @@ dt {
   border-radius: 8px;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
   padding: 10px 0;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .blurb {
@@ -59,4 +66,10 @@ dt {
 
 .education-container {
   width: 90%;
+  text-align: left;
+}
+
+.education-container dd {
+  text-align: left;
+  padding-left: 25px;
 }

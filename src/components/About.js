@@ -21,9 +21,6 @@ export default function AboutMe(props) {
           </p>
         </div>
 
-        <img className="pics" src="https://sweettootsco.files.wordpress.com/2018/08/trishiceland.jpg" alt="Trisha's happy place" />
-        <img className="pics" src={soaps} alt="Soaps" />
-
         {/* ======= TECH STACK ======= */}
         <h3>Skills</h3>
         <div className="tech-stack-container">
@@ -53,8 +50,11 @@ export default function AboutMe(props) {
           </dl>
         </div>
 
+        <img className="pics" src="https://sweettootsco.files.wordpress.com/2018/08/trishiceland.jpg" alt="Trisha's happy place" />
+        <img className="pics" src={soaps} alt="Soaps" />
+
         {/* ======= ACADEMICS ======= */}
-        <div className="education-container">
+        {/* <div className="education-container">
           <h3>Education</h3>
           <dl>
             <dt>Thinkful  | March 2019</dt>
@@ -66,7 +66,7 @@ export default function AboutMe(props) {
             <dd>Asian & Asian-American Studies Certificate</dd>
             <dd>Educator Advocate (Certified)</dd>
           </dl>
-        </div>
+        </div> */}
 
       </div>
     </section>

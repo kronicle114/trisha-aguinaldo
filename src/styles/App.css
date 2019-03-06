@@ -10,6 +10,8 @@ a {
 
 a:hover, a:focus {
   color: #6666e0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 h1, h2, h3 {
