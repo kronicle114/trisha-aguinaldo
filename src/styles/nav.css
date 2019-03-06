@@ -1,13 +1,4 @@
 /* ======= HEADER ======= */
-nav {
-  z-index: 99;
-}
-
-.ombre-bar {
-  padding: 2px;
-  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
-}
-
 .nav-list {
   padding: 0;
   margin: 0 auto;
@@ -53,13 +44,18 @@ nav {
   color: #f9f9fe;
 }
 
-.logo-wrapper h1:hover, .logo-wrapper h1:focus {
-  background: -webkit-linear-gradient(  #d32daf, #629df8, #7ff7ad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .logo {
   display: flex;
   max-width: 100px;
+}
+
+.logo-wrapper h1:hover, .logo-wrapper h1:focus {
+  background: -webkit-linear-gradient(  #d32daf, #629df8, #7ff7ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #6666e0;
+}
+
+.ombre-bar {
+  padding: 2px;
+  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
 }

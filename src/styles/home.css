@@ -20,7 +20,7 @@
 
 .animate span {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .animate span:nth-of-type(2) {
@@ -99,7 +99,7 @@
 
   100% {
     transform: translate(0) scale(1);
-    color: #6666e0;
+    /* color: #6666e0; */
     opacity: 1;
   }
 }

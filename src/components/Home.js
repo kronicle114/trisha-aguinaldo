@@ -7,10 +7,6 @@ import '../styles/home.css';
 export default function Home(props) {
   return(
     <section className="home">
-      <div className="canvas">
-
-      </div>
-
       <About />
       <Project />
       <Blog />
