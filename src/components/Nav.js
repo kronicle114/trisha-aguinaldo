@@ -37,16 +37,16 @@ export default function Nav(props) {
       </div>
      <ul className="nav-list">
        <li className="nav-items">
-         {/* <Link to="/about">About</Link> */}
-         <a href="#about">About</a>
+         <Link to="/about">About</Link>
+         {/* <a href="#about">About</a> */}
        </li>
        <li className="nav-items">
-         {/* <Link to="/projects">Projects</Link> */}
-         <a href="#projects">Projects</a>
+         <Link to="/projects">Projects</Link>
+         {/* <a href="#projects">Projects</a> */}
        </li>
        <li className="nav-items">
-         {/* <Link to="/blog">Blog</Link> */}
-         <a href="#blog">Blog</a>
+         <Link to="/blog">Blog</Link>
+         {/* <a href="#blog">Blog</a> */}
        </li>
        <li className="nav-items">
          <Link to="/contact">Contact</Link>

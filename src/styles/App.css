@@ -24,6 +24,7 @@ h1, h2, h3 {
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 50px;
 }
 
 h2 {
@@ -49,10 +50,10 @@ dt {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  /* background-color: #F4F0EA; */
 }
 
 .footer-items {
+  font-size: 10px;
   display: block;
   padding: 10px;
 }
