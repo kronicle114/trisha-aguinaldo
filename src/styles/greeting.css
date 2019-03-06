@@ -7,10 +7,10 @@
   ); */
 }
 
-/* .greeting div {
+.greeting-contents {
   position: relative;
-  top: 20%;
-} */
+  top: 30%;
+}
 
 .blurb {
   color: #6666e0;
