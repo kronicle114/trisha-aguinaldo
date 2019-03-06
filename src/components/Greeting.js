@@ -18,14 +18,12 @@ export default function Greeting() {
           <span>l</span>
           <span>d</span>
           <span>.</span>
-          {/* <span>l</span>
-          <span>d</span>
-          <span>o</span> */}
         </div> 
         <p className="blurb">
           I'm <span className="highlight">Patricia Aguinaldo</span>, a full stack developer with a background in healthcare and education.
         </p>
-        <a href="#about">View My Work</a>
+
+        <a href="#about" className="view-link">View My Work</a>
       </div>
     </div>
   )

@@ -1,23 +1,37 @@
 .greeting {
   width: 100%;
   height: 100vh;
-  /* background:linear-gradient(
+  background:linear-gradient(
     rgba(14, 141, 113, 0.5), 
     rgba(0, 0, 0, 0.6)
-  ); */
+  );
 }
 
 .greeting-contents {
   position: relative;
   top: 30%;
+  margin: 0 auto;
 }
 
 .blurb {
-  color: #6666e0;
+  color: #F4F0EA;
 }
 
 .highlight {
-  color: #d32daf;
+  color: #F4F0EA;
+  font-weight: bold;
+}
+
+.view-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #F4F0EA;
+  width: 150px;
+  line-height: 2;
+  border: 1px solid #F4F0EA;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
 }
 
 /* ======== name animation ======== */
@@ -83,7 +97,7 @@
 
 /* ======== START ANIMATION  ======== */
 .color-delay span {
-  color: #f9f9fe;
+  color: #F4F0EA;
   opacity: 0;
   transform: translate(-300px, 0) scale(0);
   animation: sideSlide .8s forwards;
@@ -107,7 +121,7 @@
 
   100% {
     transform: translate(0) scale(1);
-    color: #6666e0;
+    /* color: #6666e0; */
     opacity: 1;
   }
 }
