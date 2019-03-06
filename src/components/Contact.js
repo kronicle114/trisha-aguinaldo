@@ -9,7 +9,7 @@ import '../styles/contact.css';
 
 export default function Contact(props) {
   return(
-    <div className="contact-container">
+    <section className="contact-container">
       <h2>Contact</h2>
       <div className="contact-contents">
         <p>
@@ -49,6 +49,6 @@ export default function Contact(props) {
           <img className="map" src={map} alt="Milton, MA static map"/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

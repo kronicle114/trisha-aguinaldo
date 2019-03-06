@@ -12,7 +12,7 @@ import '../styles/projects.css';
 
 export default function Projects(props) {
   return(
-    <div className="projects-container">
+    <section className="projects-container">
       <h2>Projects</h2>
       <ul className="project-list">
 
@@ -135,6 +135,6 @@ export default function Projects(props) {
           
         </li>
       </ul>
-  </div>
+  </section>
   )
 }

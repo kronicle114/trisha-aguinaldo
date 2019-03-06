@@ -13,7 +13,7 @@ export default function Nav(props) {
           <h1>Trisha Aguinaldo</h1>
         </Link>
       </div>
-     <ul className="main-nav">
+     <ul className="nav-list">
        <li className="nav-items">
          <Link to="/about">About</Link>
        </li>

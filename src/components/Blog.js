@@ -4,7 +4,7 @@ import '../styles/blog.css';
 export default function Blog(props) {
   
   return(
-    <div className="blog-container">
+    <section className="blog-container">
     <h2>Blog</h2>
 
       <blockquote
@@ -35,6 +35,6 @@ export default function Blog(props) {
       </ul>
     </div>
     
-  </div>
+  </section>
   )
 }
