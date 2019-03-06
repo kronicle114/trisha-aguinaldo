@@ -25,6 +25,12 @@ export default function Projects(props) {
           <p>
             <strong>Description:</strong> Collaborated with 3 other developers to deploy a full-stack app. With <strong>RoadRate</strong>, you can review other drivers anonymously. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
+
+          <ul>
+            <li><i className="devicon-javascript-plain colored"></i></li>
+            <li><i className="devicon-mongodb-plain colored"></i> </li>
+            <li><i className="devicon-nodejs-plain colored"></i></li>
+          </ul>
          
           <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
             <img className="project-icon" src={github} alt="github icon"/>
