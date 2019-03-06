@@ -9,9 +9,9 @@ export default function Nav(props) {
     <nav role="navigation" className="navbar">
       <div className="logo-wrapper">
         <Link to="/">
-          <img src={logo} alt="logo" className="logo"/>
-          {/* <h1>Trisha Aguinaldo</h1> */}
-          <div className="canvas">
+          <img src={logo} alt="logo" className="logo" aria-label="Trisha Aguinaldo"/>
+          <h1>Trisha Aguinaldo</h1>
+          {/* <div className="canvas">
           <h1>
             <div className="animate color-delay">
               <span>T</span>
@@ -30,9 +30,9 @@ export default function Nav(props) {
               <span>l</span>
               <span>d</span>
               <span>o</span>
-            </div>
+            </div> 
           </h1>
-        </div>
+        </div>*/}
         </Link>
       </div>
      <ul className="nav-list">

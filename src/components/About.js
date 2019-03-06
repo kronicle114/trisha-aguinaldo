@@ -10,14 +10,10 @@ export default function AboutMe(props) {
       <div className="about-contents">
         <img src={profile} alt="Trisha Aguinaldo Profile" className="profile-img"
         />
-      
-        <div className="blurb">
-          Hi! I'm Trisha, a full stack developer with a background in healthcare and education.
-        </div>
 
         <div className="bio">
           <p>
-            A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I love coding because solving challenging problems gives me life. I also enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. 
+            A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by volunteering at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. 
           </p>
         </div>
 
