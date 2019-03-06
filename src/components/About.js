@@ -10,10 +10,6 @@ export default function AboutMe(props) {
       <div className="about-contents">
         <img src={profile} alt="Trisha Aguinaldo Profile" className="profile-img"
         />
-      
-        <div className="blurb">
-          Hi! I'm Trisha, a full stack developer with a background in healthcare and education.
-        </div>
 
         <div className="bio">
           <p>
