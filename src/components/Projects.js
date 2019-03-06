@@ -13,7 +13,7 @@ import '../styles/projects.css';
 export default function Projects(props) {
   return(
     <section className="projects-container">
-      <h2>Projects</h2>
+      <h2 id="projects">Projects</h2>
       <ul className="project-list">
 
          {/* ================== PROJECT 1 ================== */}

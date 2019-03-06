@@ -20,11 +20,10 @@ h1, h2, h3 {
   width: 400px;
 }
 
-.about-container, .contact-container, .projects-container, .blog-container, .featured  {
+.about-container, .projects-container, .blog-container, .contact-container {
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
-  /* padding-bottom: 100px; */
 }
 
 h2 {

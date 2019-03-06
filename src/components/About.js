@@ -6,7 +6,7 @@ import '../styles/about.css';
 export default function AboutMe(props) {
   return(
     <section className="about-container">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <div className="about-contents">
         <img src={profile} alt="Trisha Aguinaldo Profile" className="profile-img"
         />
