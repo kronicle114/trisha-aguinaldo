@@ -9,7 +9,7 @@ export default function Nav(props) {
     <nav role="navigation" className="navbar">
       <div className="logo-wrapper">
         <Link to="/">
-          <img src={logo} alt="logo" className="logo"/>
+          <img src={logo} alt="logo" className="logo" aria-label="Trisha Aguinaldo"/>
           <h1>Trisha Aguinaldo</h1>
           {/* <div className="canvas">
           <h1>
