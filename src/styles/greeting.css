@@ -2,8 +2,8 @@
   width: 100%;
   height: 100vh;
   background:linear-gradient(
-    rgba(14, 141, 113, 0.5), 
-    rgba(0, 0, 0, 0.6)
+    rgba(14, 141, 113, 0.6), 
+    rgba(29, 38, 54, 0.9)
   );
 }
 
@@ -14,6 +14,9 @@
 }
 
 .blurb {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
   color: #F4F0EA;
 }
 
@@ -34,7 +37,7 @@
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
 }
 
-/* ======== name animation ======== */
+/* ======== greeting animation ======== */
 
 .animate {
   margin: 0 auto;

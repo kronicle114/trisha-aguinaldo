@@ -23,7 +23,7 @@ export default function Greeting() {
           I'm <span className="highlight">Patricia Aguinaldo</span>, a full stack developer with a background in healthcare and education.
         </p>
 
-        <a href="#about" className="view-link">View My Work</a>
+        <a href="#about" className="view-link">View My Work &#8594;</a>
       </div>
     </div>
   )

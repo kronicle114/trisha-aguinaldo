@@ -29,7 +29,7 @@ class App extends Component {
             <ul className="social-media-list" aria-label="Footer contact list">
               <li className="footer-items">
                 <a href="http://www.trisha-aguinaldo.com/">
-                  © 2019 Trisha Aguinaldo
+                  © 2019 Made with Love
                 </a>
               </li>
               <li className="footer-items" aria-label="contact list item">
