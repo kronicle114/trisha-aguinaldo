@@ -6,13 +6,16 @@ import About from './About';
 import Project from './Projects';
 import Blog from './Blog';
 
-
 export default function Home(props) {
   return(
     <section className="home">
-    <About />
-    <Project />
-    <Blog />
+      <div className="canvas">
+
+      </div>
+
+      <About />
+      <Project />
+      <Blog />
     </section>
   )
 }
