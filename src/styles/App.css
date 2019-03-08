@@ -70,3 +70,12 @@ dt {
 .footer-logo {
   width: 25px;
 }
+
+.linkedin {
+  width: 28px;
+}
+
+.footer-items:hover, .footer-items:focus  {
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+  border-radius: 8px;
+}

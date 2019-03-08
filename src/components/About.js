@@ -49,21 +49,6 @@ export default function AboutMe(props) {
         <img className="pics" src="https://sweettootsco.files.wordpress.com/2018/08/trishiceland.jpg" alt="Trisha's happy place" />
         <img className="pics" src={soaps} alt="Soaps" />
 
-        {/* ======= ACADEMICS ======= */}
-        {/* <div className="education-container">
-          <h3>Education</h3>
-          <dl>
-            <dt>Thinkful  | March 2019</dt>
-            <dd>Full Stack Web Development Course</dd>
-            <dt>Fitchburg State University | Winter 2018 </dt>
-            <dd>Sheltered English Immersion Endorsed</dd>
-            <dt>University of Massachusetts at Amherst | May 2015</dt>
-            <dd>Bachelor of Science (BS), Public Health and Sociology</dd>
-            <dd>Asian & Asian-American Studies Certificate</dd>
-            <dd>Educator Advocate (Certified)</dd>
-          </dl>
-        </div> */}
-
       </div>
     </section>
   )

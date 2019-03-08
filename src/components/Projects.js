@@ -20,19 +20,21 @@ export default function Projects () {
           </h3>
 
           {/* PROJECT IMAGE */}
-          <div className="container">
-            <img className="roadrate" src={roadrate} alt="RoadRate"/>
-            <div className="overlay">
-              <div className="stack">
-              <ul className="stack-list">
-                <li><i className="devicon-javascript-plain colored"></i></li>
-                <li><i className="devicon-react-original colored"/></li>
-                <li><i className="devicon-mongodb-plain colored"></i> </li>
-                <li><i className="devicon-nodejs-plain colored"></i></li>
-              </ul>
+          <a href="https://road-rate-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <div className="container">
+                <img className="roadrate" src={roadrate} alt="RoadRate"/>
+              <div className="overlay">
+                <div className="stack">
+                <ul className="stack-list">
+                  <li><i className="devicon-javascript-plain colored"></i></li>
+                  <li><i className="devicon-react-original colored"/></li>
+                  <li><i className="devicon-mongodb-plain colored"></i> </li>
+                  <li><i className="devicon-nodejs-plain colored"></i></li>
+                </ul>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
          
           {/* PROJECT DESCRIPTION */}
           <p>
@@ -51,56 +53,28 @@ export default function Projects () {
         {/* ================== PROJECT 2 ================== */}
         <li className="projects">
           <h3>
-            <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service</a>
-          </h3>
-
-          {/* PROJECT IMAGE */}
-          <div className="container">
-            <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
-            <div className="overlay">
-              <div className="stack">
-              <ul className="stack-list">
-                <li><i className="devicon-python-plain colored"></i></li>
-                <li>
-                  <img className="pygame" src={pygame} alt="pygame icon" />
-                </li>
-              </ul>
-              </div>
-            </div>
-          </div>
-         
-          {/* PROJECT DESCRIPTION */}
-          <p>
-            <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
-          </p>
-          <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
-            <img className="project-icon" src={github} alt="github icon"/>
-          </a>
-        </li>
-
-        {/* ================== PROJECT 3 ================== */}
-        <li className="projects">
-          <h3>
             <a href="https://github.com/thinkful-ei26/trisha-wc-client" target="_blank" rel="noopener noreferrer">What's Cooking</a>
           </h3>
           
           {/* PROJECT IMAGE */}
-          <div className="container">
-            <img className="wc-img" src={wc} alt="What's Cooking App"/>
-            <div className="overlay">
-              <div className="stack">
-              <ul className="stack-list">
-                <li><i className="devicon-javascript-plain colored"></i></li>
-                <li><i className="devicon-react-original colored"></i></li>
-                <li>
-                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
-                </li>
-                <li><i className="devicon-mongodb-plain colored"></i> </li>
-                <li><i className="devicon-nodejs-plain colored"></i></li>
-              </ul>
+          <a href="https://whats-cooking-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <div className="container">
+                <img className="wc-img" src={wc} alt="What's Cooking App"/>
+              <div className="overlay">
+                <div className="stack">
+                <ul className="stack-list">
+                  <li><i className="devicon-javascript-plain colored"></i></li>
+                  <li><i className="devicon-react-original colored"></i></li>
+                  <li>
+                  <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                  </li>
+                  <li><i className="devicon-mongodb-plain colored"></i> </li>
+                  <li><i className="devicon-nodejs-plain colored"></i></li>
+                </ul>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
          
           {/* PROJECT DESCRIPTION */}
           <p>
@@ -120,6 +94,39 @@ export default function Projects () {
           </p>
           */}
         </li>
+
+        {/* ================== PROJECT 3 ================== */}
+        <li className="projects">
+          <h3>
+            <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service</a>
+          </h3>
+
+          {/* PROJECT IMAGE */}
+          <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">
+            <div className="container">
+                <img className="octo-img" src={octo} alt="OctoGun: Delivery Service"/>
+              <div className="overlay">
+                <div className="stack">
+                <ul className="stack-list">
+                  <li><i className="devicon-python-plain colored"></i></li>
+                  <li>
+                    <img className="pygame" src={pygame} alt="pygame icon" />
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+         
+          {/* PROJECT DESCRIPTION */}
+          <p>
+            <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
+          </p>
+          <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
+            <img className="project-icon" src={github} alt="github icon"/>
+          </a>
+        </li>
+
       </ul>
   </section>
   )

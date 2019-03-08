@@ -23,7 +23,7 @@ export default function Contact(props) {
             <li className="contact-items">
               <a href="mailto:trisha.aguinaldo@gmail.com">
                 <img className="contact-icon" src={email}alt="email icon"/>
-                trisha.aguinaldo.gmail.com
+                trisha.aguinaldo@gmail.com
               </a>
             </li>
             <li className="contact-items">

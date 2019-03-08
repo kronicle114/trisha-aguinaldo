@@ -34,22 +34,22 @@ class App extends Component {
               </li>
               <li className="footer-items" aria-label="contact list item">
                 <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">
-                  <img className="footer-logo" src={twitter}alt="twitter logo"></img>
+                  <img className="footer-logo" src={twitter} alt="twitter logo"></img>
                 </a>
               </li>
               <li className="footer-items" aria-label="contact list item">
                 <a href="https://www.linkedin.com/in/paguinaldo/" target="_blank" rel="noopener noreferrer">
-                  <img className="footer-logo" src={linkedin}alt="linkedin logo"></img>
+                  <img className="footer-logo linkedin" src={linkedin} alt="linkedin logo"></img>
                 </a>
               </li>
               <li className="footer-items" aria-label="contact list item">
                 <a href="https://github.com/kronicle114" target="_blank" rel="noopener noreferrer">
-                  <img className="footer-logo" src={github}alt="github logo"></img>
+                  <img className="footer-logo" src={github} alt="github logo"></img>
                 </a>
               </li>
               <li className="footer-items" aria-label="contact list item">
                 <a href="mailto:trisha.aguinaldo@gmail.com">
-                  <img className="footer-logo" src={email}alt="email logo"></img>
+                  <img className="footer-logo" src={email} alt="email logo"></img>
                 </a>
               </li>
             </ul>
