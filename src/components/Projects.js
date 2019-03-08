@@ -1,15 +1,10 @@
 import React from 'react';
 import wc from '../assets/wc.png';
-import tagalog from '../assets/tagalog.png';
-import invaders from '../assets/screen-shot.png';
-import quiz from '../assets/quiz.png';
 import octo from '../assets/octo.png';
 import roadrate from '../assets/roadrate.png';
 import github from '../assets/github-icon.svg';
 import heroku from '../assets/heroku-icon.svg';
-import replit from '../assets/replit-icon.svg';
 import pygame from '../assets/pygame.png';
-import phaser from '../assets/phaser.png';
 import '../styles/projects.css';
 
 export default function Projects () {
@@ -18,8 +13,8 @@ export default function Projects () {
       <h2 id="projects">Projects</h2>
       <ul className="project-list">
 
-         {/* ================== PROJECT 1 ================== */}
-         <li className="projects">
+        {/* ================== PROJECT 1 ================== */}
+        <li className="projects">
           <h3>
             <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer">RoadRate</a>
           </h3>
@@ -124,115 +119,6 @@ export default function Projects () {
             <strong>Known Issues:</strong> I did not use a recipe API for the current version of the app. This is because I wanted to learn how to make my own database from scratch. Version 2 will feature multi-user capabilities and a third-party API like Spoonacular so the user can save recipes on their account and make changes as they see fit. 
           </p>
           */}
-        </li>
-
-        {/* ================== PROJECT 4 ================== */}
-         <li className="projects">
-          <h3>
-            <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">Tagalog Teacher</a>
-          </h3>
-          
-          {/* PROJECT IMAGE */}
-          <div className="container">
-            <img className="tagalog" src={tagalog} alt="Tagalog Teacher"/>
-            <div className="overlay">
-              <div className="stack">
-              <ul className="stack-list">
-                <li><i className="devicon-javascript-plain colored"></i></li>
-                <li><i className="devicon-react-original colored"></i></li>
-                <li>
-                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
-                </li>
-                <li><i className="devicon-mongodb-plain colored"></i> </li>
-                <li><i className="devicon-nodejs-plain colored"></i></li>
-              </ul>
-              </div>
-            </div>
-          </div>
-         
-          {/* PROJECT DESCRIPTION */}
-          <p>
-            <strong>Description:</strong> Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely. Passwords are hashed. 
-          </p>
-         
-          <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
-            <img className="project-icon" src={github} alt="github icon"/>
-          </a>
-         
-          <a href="https://frozen-garden-93870.herokuapp.com/" target="_blank" rel="noopener noreferrer" aria-label="deployed heroku icon link">
-            <img className="project-icon" src={heroku} alt="heroku icon"/>
-          </a>
-
-          {/* 
-          <p>
-            <strong>Known Issues:</strong> Logging in will take a while. I'm still working on incorporating a loading spinner so that the user knows that the login request is pending. Right now, if you login, it will seem like the app froze, but it's just taking a few seconds for Heroku to post the login request.
-          </p>
-           */}
-        </li>
-
-        {/* ================== PROJECT 5 ================== */}
-        <li className="projects">
-          <h3>
-            <a href="https://github.com/kronicle114/house-invaders/tree/master" target="_blank" rel="noopener noreferrer">House Invaders</a>
-          </h3>
-   
-          {/* PROJECT IMAGE */}
-          <div className="container">
-            <img className="invaders" src={invaders} alt="House Invaders"/>
-            <div className="overlay">
-              <div className="stack">
-              <ul className="stack-list">
-                <li><i className="devicon-javascript-plain colored"></i></li>
-                <li><img src={phaser} alt="phasher logo" /></li>
-              </ul>
-              </div>
-            </div>
-          </div>
-         
-          {/* PROJECT DESCRIPTION */}
-          <p>
-            <strong>Description:</strong> Collaborated with a developer and a media designer over a weekend to build a drag and drop game for Global Game Jam 2019. Used JavaScript's Phaser3.JS with Matter.JS as the physics engine.
-          </p>
-         
-          <a href="https://github.com/kronicle114/house-invaders/tree/master" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
-            <img className="project-icon" src={github}alt="github icon"/>
-          </a>
-         
-          {/* 
-          <p>
-            <strong>Known Issues:</strong> Hitboxes of all objects are slightly off. We realized that making a game over the weekend was not very realistic. Moving forward, we'll probably spend more time getting to know Phaser3 or whatever engine we're using to develop the game.  
-          </p>
-           */}
-        </li>
-
-        {/* ================== PROJECT 6 ================== */}
-        <li className="projects">
-          <h3>
-            <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer">Baby Animal Quiz App</a>
-          </h3>
-             
-          {/* PROJECT IMAGE */}
-          <div className="container">
-          <img className="quiz" src={quiz} alt="Baby Animal Quiz App"/>
-            <div className="overlay">
-              <div className="stack">
-              <ul className="stack-list">
-                <li><i className="devicon-javascript-plain colored"></i></li>
-                <li><i className="devicon-jquery-plain colored"></i> </li>
-              </ul>
-              </div>
-            </div>
-          </div>
-         
-          {/* PROJECT DESCRIPTION */}
-          <p>Basic quiz app using the HTML, CSS, JavaScript/jQuery.</p>
-          <a href="https://babyanimalquiz-1--trishaaguinaldo.repl.co/" target="_blank" rel="noopener noreferrer" aria-label="Replit icon link">
-            <img className="project-icon" src={replit} alt="replit icon" />
-          </a>
-          <a href="https://github.com/kronicle114/babyAnimalQuizApp" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
-            <img className="project-icon" src={github} alt="github icon"/>
-          </a>
-          
         </li>
       </ul>
   </section>

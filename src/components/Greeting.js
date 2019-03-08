@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/greeting.css';
 
 export default function Greeting() {
+  const [ viewHover, setViewHover ] = useState(null);
+
   return(
     <div className="greeting">
       <div className="greeting-contents">
@@ -23,7 +25,14 @@ export default function Greeting() {
           I'm <span className="highlight">Patricia Aguinaldo</span>, a full stack developer with a background in healthcare and education.
         </p>
 
-        <a href="#about" className="view-link">View My Work &#8594;</a>
+        <a 
+          href="#about" 
+          className="view-link"
+          onMouseOver={() => setViewHover(true)}
+          onMouseLeave={() => setViewHover(false)}
+        >
+          {viewHover ? ("View My Work ↓") : ("View My Work →")}
+        </a>
       </div>
     </div>
   )
