@@ -38,7 +38,7 @@ export default function Projects () {
          
           {/* PROJECT DESCRIPTION */}
           <p>
-            <strong>Description:</strong> Collaborated with 3 other developers to deploy a full-stack app. With <strong>RoadRate</strong>, you can review other drivers anonymously. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
+            <strong>Description: </strong>With <strong>RoadRate</strong>, you can review other drivers anonymously. Collaborated with 3 other developers to deploy a full-stack app. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
          
           <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
@@ -78,7 +78,7 @@ export default function Projects () {
          
           {/* PROJECT DESCRIPTION */}
           <p>
-            <strong>Description:</strong> Deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment. I developed the app from scratch over a 2-week period. The `Surprise` button and the `Search` feature queries the mLab database everytime an event happens. 
+            <strong>Description:</strong> Want your next meal to be a surprise? Use What's Cooking to get a randomly generated recipe on your list. Or just search for your next meal. This is a deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment.
           </p>
          
           <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
@@ -120,7 +120,7 @@ export default function Projects () {
          
           {/* PROJECT DESCRIPTION */}
           <p>
-            <strong>Description:</strong> A simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project. There are some known bugs listed on the repo but I am working to resolve them. 
+            <strong>Description:</strong> You are a gunslinging octopus whose job is to collect and deliver packages. This is a simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project.
           </p>
           <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer" aria-label="Github icon link">
             <img className="project-icon" src={github} alt="github icon"/>
