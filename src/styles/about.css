@@ -4,6 +4,7 @@
   width: 50%;
   max-width: 200px;
   /* border-radius: 50%; */
+  border-radius: 25%;
   background: linear-gradient(
     rgba(14, 141, 113, 0.6), 
     rgba(0, 0, 0, 0.6)

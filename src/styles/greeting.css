@@ -5,10 +5,19 @@
     rgba(14, 141, 113, 0.6), 
     rgba(29, 38, 54, 0.9)
   ); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(14, 141, 113, 0.6), 
     rgba(0, 0, 0, 0.6)
-  ), url('../assets/mountain.jpg');
+  ), url('../assets/mountain.jpg'); */
+  /* background: linear-gradient(
+    rgba(19, 26, 24, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('../assets/purple.jpg'); */
+
+  background: linear-gradient(
+    rgba(19, 26, 24, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('../assets/electric.jpg');
   background-size: cover;
   background-blend-mode: luminosity;
 }
