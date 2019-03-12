@@ -93,5 +93,5 @@ dt {
 }
 
 .footer-items:hover, .footer-items:focus {
-	animation: bounce 2s;
+	animation: bounce 1s;
 }

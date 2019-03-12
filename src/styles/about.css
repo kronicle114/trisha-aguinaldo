@@ -4,11 +4,12 @@
   width: 50%;
   max-width: 200px;
   /* border-radius: 50%; */
-  border-radius: 25%;
-  background: linear-gradient(
+  /* border-radius: 25%; */
+  /* background: linear-gradient(
     rgba(14, 141, 113, 0.6), 
     rgba(0, 0, 0, 0.6)
-  ), url('../assets/mountain.jpg');
+  ), url('../assets/mountain.jpg'); */
+  background: linear-gradient(to bottom right, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
   background-size: cover;
   background-blend-mode: luminosity;
 }
@@ -20,6 +21,7 @@ dt {
 
 .about-contents dd {
   padding-top: 5px;
+  background-color: white;
 }
 
 .about-container {
@@ -46,7 +48,8 @@ dt {
 }
 
 .about-contents, .blog-contents, .contact-contents {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background-color: white;
   border-radius: 8px;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
   padding: 10px 0;

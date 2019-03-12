@@ -1,7 +1,7 @@
 import React from 'react';
 // import profile from '../assets/profile.jpg';
-import trish from '../assets/trish.png';
-// import transparent from '../assets/transparent.png';
+// import trish from '../assets/trish.png';
+import transparent from '../assets/transparent.png';
 // import blue from '../assets/blu-wht-trisha.png';
 import soaps from '../assets/soaps.jpg';
 import '../styles/about.css';
@@ -13,8 +13,8 @@ export default function AboutMe(props) {
       <div className="about-contents">
         {/* <img src={profile} alt="Trisha Aguinaldo Profile" className="profile-img"
         /> */}
-        <img src={trish} alt="Trisha Aguinaldo Profile" className="profile-img"/>
-        {/* <img src={transparent} alt="Trisha Aguinaldo Profile" className="profile-img"/> */}
+        {/* <img src={trish} alt="Trisha Aguinaldo Profile" className="profile-img"/> */}
+        <img src={transparent} alt="Trisha Aguinaldo Profile" className="profile-img"/>
         {/* <img src={blue} alt="Trisha Aguinaldo Profile" className="profile-img"/> */}
 
         <div className="bio">
