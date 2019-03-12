@@ -28,7 +28,7 @@ export default function Nav(props) {
        </li>
      </ul>
     </nav>
-    <div className="ombre-bar"></div>
+    {/* <div className="ombre-bar"></div> */}
    </header>
   )
 }
