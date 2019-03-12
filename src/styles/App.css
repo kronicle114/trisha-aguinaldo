@@ -75,7 +75,23 @@ dt {
   width: 28px;
 }
 
-.footer-items:hover, .footer-items:focus  {
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
-  border-radius: 8px;
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+.footer-items:hover, .footer-items:focus {
+	animation: bounce 2s;
 }

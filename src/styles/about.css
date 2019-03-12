@@ -3,7 +3,13 @@
   margin: 0 auto;
   width: 50%;
   max-width: 200px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  background: linear-gradient(
+    rgba(14, 141, 113, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('../assets/mountain.jpg');
+  background-size: cover;
+  background-blend-mode: luminosity;
 }
 
 dt {
