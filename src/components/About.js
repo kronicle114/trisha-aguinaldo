@@ -8,6 +8,7 @@ export default function AboutMe(props) {
   return(
     <section className="about-container">
       <h2 id="about">About Me</h2>
+      <div className="ombre-bar"/>
       <div className="about-contents">
         
         <div className="profile-container">
@@ -22,6 +23,8 @@ export default function AboutMe(props) {
           <p>
           Hi! I'm a full stack developer with a background in healthcare and education. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by collaborating with other developers at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. 
           </p>
+
+          <p>Like what you see? <strong>Let’s chat!</strong></p>
         </div>
 
         {/* ======= TECH STACK ======= */}

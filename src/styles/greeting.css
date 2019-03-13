@@ -24,7 +24,7 @@
   color: #F4F0EA;
 }
 
-.view-link {
+.view-link, .contact-link {
   display: block;
   margin: 10px auto;
   text-align: center;
@@ -36,7 +36,7 @@
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
 }
 
-.view-link:hover {
+.view-link:hover, .view-link:focus, .contact-link:hover, .contact-link:focus {
   background-color: rgba(244, 240, 234, 0.9);
   color: rgba(12, 0, 8, 0.8);
   -webkit-transition: .5s ease;

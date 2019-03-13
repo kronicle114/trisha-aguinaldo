@@ -11,6 +11,7 @@ export default function Contact(props) {
   return(
     <section className="contact-container">
       <h2>Contact</h2>
+      <div className="ombre-bar"/>
       <div className="contact-contents">
         <p className="resume">
           Download my resume <a href={resume}>here</a>

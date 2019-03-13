@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  background-color: #e8e9e8;
+  /* background-color: #e8e9e8; */
   color: #1D2636;
   margin: 0;
   padding: 0;

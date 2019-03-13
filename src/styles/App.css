@@ -93,6 +93,12 @@ dt {
 	}
 }
 
-.footer-items:hover, .footer-items:focus {
+.footer-items:hover, .footer-items:focus, .project-icon:hover, .project-icon:focus {
 	animation: bounce 1s;
+}
+
+.ombre-bar {
+  padding: 2px;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
 }

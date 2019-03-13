@@ -4,6 +4,7 @@ import '../styles/greeting.css';
 
 export default function Greeting() {
   const [ viewHover, setViewHover ] = useState(null);
+  const [ contactHover, setContactHover ] = useState(null);
 
   return(
     <div className="greeting">
@@ -41,6 +42,17 @@ export default function Greeting() {
             onMouseLeave={() => setViewHover(false)}
           >
             {viewHover ? ("View My Work ↓") : ("View My Work →")}
+          </a>
+        </div>
+
+        <div className="contact">
+          <a 
+            href="#contact" 
+            className="contact-link"
+            onMouseOver={() => setContactHover(true)}
+            onMouseLeave={() => setContactHover(false)}
+          >
+            {contactHover ? ("Contact Me ↓") : ("Contact Me →")}
           </a>
         </div>
 
