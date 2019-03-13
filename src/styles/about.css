@@ -60,7 +60,9 @@ dt {
   padding: 10px 0;
   width: 85%;
 }
-
+.bio p {
+  margin: 10px;
+}
 .pics {
   margin: 10px auto;
   display: block;
