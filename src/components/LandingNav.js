@@ -48,7 +48,7 @@ export const LandingNav = () => {
           role="presentation"
           aria-label="Navigation Button"
         >
-            <i className="fas fa-bars" />
+          <i className="fas fa-bars" />
         </button>
 
         {modalOpen && (
