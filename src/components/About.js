@@ -3,12 +3,13 @@ import transparent from '../assets/transparent.png';
 import trish from '../assets/trish.png';
 import soaps from '../assets/soaps.jpg';
 import resume from '../assets/Resume.pdf';
+import { Link } from 'react-router-dom';
 import '../styles/about.css';
 
 export default function AboutMe(props) {
   return(
     <section className="about-container">
-      <h2 id="about">About Me</h2>
+      <h2 id="about"> About Me</h2>
       <div className="ombre-bar"/>
       <div className="about-contents">
         

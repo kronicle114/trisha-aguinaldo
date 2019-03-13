@@ -123,19 +123,19 @@
 }
 
 /* ======== blurb animation ======== */
-.hello {
+#hello {
   margin: 0 auto;
   text-align: center;
   width: 100%;
   font-size: 48px;
 }
 
-.hello b{
+#hello b{
   color: #fcf0f9;
   text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #d32daf, 0 0 0.5em #d32daf, 0 0 0.1em #d32daf, 0 10px 3px #000;
 }
 
-.hello b span{
+#hello b span{
   animation: blink2 linear infinite 3s;
 }
 

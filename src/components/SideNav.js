@@ -14,18 +14,12 @@ export const SideNav = () => {
     )
   }
 
-  const linkClose = () => {
-    localStorage.setItem("redirect", true);
-  }
-
   return(
     <section className="modal-container">
       <article className="nav-modal">
         <nav role="navigation" className="nav-container">
           <div className="logo-wrapper">
-            <Link to="/"
-              // onClick={() => linkClose()}
-            >
+            <Link to="/">
               <img src={logo} alt="logo" className="logo" aria-label="Trisha Aguinaldo"/>
               <h1>Trisha Aguinaldo</h1>
             </Link>

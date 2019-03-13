@@ -9,7 +9,7 @@ export default function Greeting() {
     <div className="greeting">
       <div className="greeting-contents">
 
-        <div className="hello">
+        <div id="hello">
           <b>h<span>e</span>llo w<span>o</span>rld</b>
         </div>
 

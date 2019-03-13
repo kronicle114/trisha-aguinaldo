@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.modal, .nav-list, .modal-content {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
 .navbar {
   position: fixed;
   top: 10px;
@@ -32,6 +37,10 @@
   color: #6666e0;
   -webkit-transition: .5s ease;
   transition: .5s ease;
+}
+
+.nav-overlay {
+  cursor: pointer;
 }
 
 /* ====== LOGO ====== */
