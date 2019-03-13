@@ -1,4 +1,18 @@
 /* ============== BODY ============== */
+.hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px;
+}
+
+#bar {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #1D2636;
+}
+
 .home {
   padding-bottom: 50px;
 }
@@ -59,12 +73,14 @@ dt {
   display: block;
   padding: 10px;
 }
+
 .site-footer {
-  position:fixed;
+  /* position:fixed;
   left:0px;
-  bottom:0px;
+  bottom:0px; */
   width:100%;
   background-color: #e8e9e8;
+  /* background-color: transparent; */
 }
 
 .footer-logo {
@@ -75,7 +91,29 @@ dt {
   width: 28px;
 }
 
-.footer-items:hover, .footer-items:focus  {
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
-  border-radius: 8px;
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+.footer-items:hover, .footer-items:focus, .project-icon:hover, .project-icon:focus {
+	animation: bounce 1s;
+}
+
+.ombre-bar {
+  padding: 2px;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
 }

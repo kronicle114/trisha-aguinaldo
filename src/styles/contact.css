@@ -10,6 +10,7 @@
 
 .contact-container {
   text-align: center;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
@@ -35,4 +36,18 @@
 
 .contact-blurb {
   padding: 10px;
+}
+
+.align-right {
+  background-color: transparent;
+  color: #1D2636;
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+
+.align-right:hover, .align-right:focus {
+  color: #6666e0;
+
 }

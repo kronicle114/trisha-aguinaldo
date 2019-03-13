@@ -6,7 +6,7 @@ export default function Blog(props) {
   return(
     <section className="blog-container">
     <h2 id="blog">Blog</h2>
-
+    <div className="ombre-bar"/>
       <blockquote
         cite="https://www.globalcitizen.org/en/content/google-yuri-kochiyama-doodle-peace-activist/"
       >

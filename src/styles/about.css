@@ -3,7 +3,9 @@
   margin: 0 auto;
   width: 50%;
   max-width: 200px;
-  border-radius: 50%;
+  background: linear-gradient(to bottom right, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
+  background-size: cover;
+  background-blend-mode: luminosity;
 }
 
 dt {
@@ -13,6 +15,7 @@ dt {
 
 .about-contents dd {
   padding-top: 5px;
+  background-color: white;
 }
 
 .about-container {
@@ -20,7 +23,7 @@ dt {
 }
 
 .about-contents h3 {
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .skills {
@@ -39,9 +42,8 @@ dt {
 }
 
 .about-contents, .blog-contents, .contact-contents {
-  background-color: #f7f7f7;
+  background-color: white;
   border-radius: 8px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
   padding: 10px 0;
   max-width: 800px;
 }
@@ -50,7 +52,9 @@ dt {
   padding: 10px 0;
   width: 85%;
 }
-
+.bio p {
+  margin: 10px;
+}
 .pics {
   margin: 10px auto;
   display: block;
@@ -67,4 +71,26 @@ dt {
 .education-container dd {
   text-align: left;
   padding-left: 25px;
+}
+
+.profile-container {
+  position: relative;
+  width: 90%;
+}
+
+.profile-overlay {
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: rgb(255, 255, 255);
+}
+.profile-container:hover .profile-overlay, .profile-container:focus .profile-overlay {
+  opacity: 1;
 }
