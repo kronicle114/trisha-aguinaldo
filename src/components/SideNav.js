@@ -1,7 +1,7 @@
 import React, { useState } from 'react'; 
 import Nav from './Nav';
 
-export const LoginForm = () => {
+export const SideNav = () => {
   const [modalOpen, setModalOpen] = useState(true);
   
   const Button = () => {
@@ -22,4 +22,4 @@ export const LoginForm = () => {
     </section>
     )};
 
-export default LoginForm;
+export default SideNav;

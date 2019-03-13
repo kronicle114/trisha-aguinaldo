@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import LoginForm from './login-form';
+import SideNav from './SideNav';
 import '../styles/landing-nav.css';
 import '../styles/modal.css';
 
@@ -20,45 +20,45 @@ export const LandingNav = () => {
     }
   }
 
-  const LoginModal = ({ title, onClose }) => {
+  const NavModal = ({ title, onClose }) => {
     const modalRef = useRef(null);
 
     useEffect(() => clickOutside(modalRef, onClose))
 
-      return (
-        <div className="nav-overlay">
-          <div className="modal">
-            <h2>{title}</h2>
-            <div className="modal-content" ref={modalRef}>
-            <LoginForm />
-            </div>
+    return (
+      <div className="nav-overlay">
+        <div className="modal">
+          <h2>{title}</h2>
+          <div className="modal-content" ref={modalRef}>
+          <SideNav />
           </div>
         </div>
-      );
-    }             
+      </div>
+    );
+  }             
 
   return(
 
   <div className="navbar">
     <ul className="nav-list">
-        <li className="nav-item">
-            <button 
-              id="nav-button" 
-              onClick={() => setModalOpen('isOpen')}
-              role="presentation"
-              aria-label="Navigation Button"
-            >
-                <i className="fas fa-bars" />
-            </button>
+      <li className="nav-item">
+        <button 
+          id="nav-button" 
+          onClick={() => setModalOpen('isOpen')}
+          role="presentation"
+          aria-label="Navigation Button"
+        >
+            <i className="fas fa-bars" />
+        </button>
 
-            {modalOpen && (
-                <LoginModal
-                    show={modalOpen === 'isOpen'}
-                    toggleModal={setModalOpen}
-                    onClose={onClose}
-                />
-            )}
-        </li>
+        {modalOpen && (
+          <NavModal
+            show={modalOpen === 'isOpen'}
+            toggleModal={setModalOpen}
+            onClose={onClose}
+          />
+        )}
+      </li>
     </ul>
   </div>
   )
