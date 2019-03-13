@@ -1,4 +1,18 @@
 /* ============== BODY ============== */
+.hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px;
+}
+
+#bar {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #1D2636;
+}
+
 .home {
   padding-bottom: 50px;
 }
@@ -59,13 +73,14 @@ dt {
   display: block;
   padding: 10px;
 }
+
 .site-footer {
-  position:fixed;
+  /* position:fixed;
   left:0px;
-  bottom:0px;
+  bottom:0px; */
   width:100%;
-  /* background-color: #e8e9e8; */
-  background-color: transparent;
+  background-color: #e8e9e8;
+  /* background-color: transparent; */
 }
 
 .footer-logo {

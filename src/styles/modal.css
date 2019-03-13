@@ -1,0 +1,56 @@
+.moverlay {
+  background-color: rgba(0, 0, 0, 0.822);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50vh;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  height: 250px;
+  max-height: 100%;
+  min-width: 95%;
+  max-width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+
+.modal h2 {
+  position: relative;
+  padding-top: 20px;
+  margin: 0 auto;
+  color: rgb(52, 110, 98);
+}
+
+.close {
+  text-decoration: none;
+  color: palevioletred;
+  font-family: sans-serif;
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.login-form input {
+  padding: 8px 15px;
+  margin: 3px;
+  text-align: center;
+}

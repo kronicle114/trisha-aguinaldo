@@ -4,6 +4,7 @@ import logo from '../assets/t-alpha.svg';
 import '../styles/nav.css';
 
 export default function Nav(props) {
+
   return(
     <header className="App-header">
     <nav role="navigation" className="navbar">
@@ -28,7 +29,6 @@ export default function Nav(props) {
        </li>
      </ul>
     </nav>
-    {/* <div className="ombre-bar"></div> */}
    </header>
   )
 }

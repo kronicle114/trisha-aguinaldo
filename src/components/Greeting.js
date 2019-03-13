@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Nav from './Nav';
 import '../styles/greeting.css';
 
 export default function Greeting() {
@@ -8,7 +7,6 @@ export default function Greeting() {
 
   return(
     <div className="greeting">
-      {/* <Nav/> */}
       <div className="greeting-contents">
 
         <div className="hello">

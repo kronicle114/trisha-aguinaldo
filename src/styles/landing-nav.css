@@ -1,0 +1,36 @@
+.navbar {
+  margin-top: 0px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 8px;
+  margin-top: 0px;
+}
+
+.nav-list a {
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.about-links, .nav-items {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#login-button {
+  border-radius: 3px;
+  background:transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 14px;
+  padding: 0px;
+}
+
+#login-button:hover,
+.login-link:hover, .register-link:hover, .landing-link:hover, .about-link:hover {
+  color: grey;
+}
