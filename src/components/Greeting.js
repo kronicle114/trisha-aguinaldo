@@ -9,7 +9,7 @@ export default function Greeting() {
     <div className="greeting">
       {/* <Nav/> */}
       <div className="greeting-contents">
-      
+
         {/* <div className="animate color-delay">
           <span>h</span>
           <span>e</span>
@@ -33,14 +33,17 @@ export default function Greeting() {
           <b>i'<span>m</span> tr<span>i</span>sh<span>a</span></b>
         </div>
 
-        <a 
-          href="#about" 
-          className="view-link"
-          onMouseOver={() => setViewHover(true)}
-          onMouseLeave={() => setViewHover(false)}
-        >
-          {viewHover ? ("View My Work ↓") : ("View My Work →")}
-        </a>
+        <div className="view">
+          <a 
+            href="#about" 
+            className="view-link"
+            onMouseOver={() => setViewHover(true)}
+            onMouseLeave={() => setViewHover(false)}
+          >
+            {viewHover ? ("View My Work ↓") : ("View My Work →")}
+          </a>
+        </div>
+
       </div>
     </div>
   )
