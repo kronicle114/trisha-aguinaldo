@@ -26,7 +26,7 @@ export const LandingNav = () => {
     useEffect(() => clickOutside(modalRef, onClose))
 
       return (
-        <div className="moverlay">
+        <div className="nav-overlay">
           <div className="modal">
             <h2>{title}</h2>
             <div className="modal-content" ref={modalRef}>
@@ -42,7 +42,14 @@ export const LandingNav = () => {
   <div className="navbar">
     <ul className="nav-list">
         <li className="nav-item">
-            <button id="nav-button" onClick={() => setModalOpen('isOpen')}><i className="fas fa-bars" /></button>
+            <button 
+              id="nav-button" 
+              onClick={() => setModalOpen('isOpen')}
+              role="presentation"
+              aria-label="Navigation Button"
+            >
+                <i className="fas fa-bars" />
+            </button>
 
             {modalOpen && (
                 <LoginModal
