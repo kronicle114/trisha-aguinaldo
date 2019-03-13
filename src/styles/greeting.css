@@ -29,15 +29,11 @@
 }
 
 .blurb {
+  font-size: 32px;
   display: block;
   margin: 0 auto;
   text-align: center;
   color: #F4F0EA;
-}
-
-.highlight {
-  color: #F4F0EA;
-  font-weight: bold;
 }
 
 .view-link {
@@ -69,8 +65,9 @@
 
 .animate span {
   display: inline-block;
+  /* text-transform: capitalize; */
   font-size: 48px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .animate span:nth-of-type(2) {
@@ -134,5 +131,47 @@
   100% {
     transform: translate(0) scale(1);
     opacity: 1;
+  }
+}
+
+/* ======== blurb animation ======== */
+.blurb b{
+  color: #defefc;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08e8de, 0 0 0.5em #08e8de, 0 0 0.1em #08e8de, 0 10px 3px #000;
+}
+.blurb b span{
+  animation: blink linear infinite 2s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
   }
 }

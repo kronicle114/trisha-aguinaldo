@@ -7,7 +7,7 @@ export default function Greeting() {
 
   return(
     <div className="greeting">
-      <Nav/>
+      {/* <Nav/> */}
       <div className="greeting-contents">
         <div className="animate color-delay">
           <span>h</span>
@@ -23,9 +23,9 @@ export default function Greeting() {
           <span>d</span>
           <span>.</span>
         </div> 
-        <p className="blurb">
-          I'm <span className="highlight">Patricia Aguinaldo</span>, a full stack developer with a background in healthcare and education.
-        </p>
+        <div className="blurb">
+          <b>i'<span>m</span> tr<span>i</span>sh<span>a</span></b>
+        </div>
 
         <a 
           href="#about" 
