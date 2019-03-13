@@ -7,7 +7,7 @@ export default function Nav(props) {
 
   return(
     <header className="App-header">
-    <nav role="navigation" className="navbar">
+    <nav role="navigation" className="nav-container">
       <div className="logo-wrapper">
         <Link to="/">
           <img src={logo} alt="logo" className="logo" aria-label="Trisha Aguinaldo"/>

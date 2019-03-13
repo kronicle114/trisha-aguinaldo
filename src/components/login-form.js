@@ -14,8 +14,8 @@ export const LoginForm = () => {
   }
  
   return(
-    <section className="login-container">
-      <article className="login-modal">
+    <section className="modal-container">
+      <article className="nav-modal">
         <Nav />
         <Button />
       </article>

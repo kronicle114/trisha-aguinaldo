@@ -1,7 +1,3 @@
-.navbar {
-  margin-top: 0px;
-}
-
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -12,7 +8,7 @@
 
 .nav-list a {
   color: whitesmoke;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .about-links, .nav-items {
@@ -21,7 +17,7 @@
   padding: 10px;
 }
 
-#login-button {
+#nav-button {
   border-radius: 3px;
   background:transparent;
   border: none;
@@ -30,7 +26,7 @@
   padding: 0px;
 }
 
-#login-button:hover,
+#nav-button:hover, #nav-button:focus,
 .login-link:hover, .register-link:hover, .landing-link:hover, .about-link:hover {
   color: grey;
 }

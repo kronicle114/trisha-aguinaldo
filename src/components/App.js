@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/App.css';
 // import Nav from './Nav';
 import About from './About';
@@ -13,32 +13,9 @@ import email from '../assets/gmail.svg';
 import { Route } from 'react-router-dom';
 
 export const App = (props) => { 
-  // const [ navClick, setNavClick ] = useState(false)
-
-  // let nav;
-  // if (!navClick || localStorage.close === false) {
-  //   nav = (<div className="hamburger">
-  //   <button 
-  //     id="bar" 
-  //     onClick={() => {
-  //         setNavClick(true);
-  //         localStorage.setItem('close', false)
-  //       }
-  //     }
-  //   >
-  //     <i className="fas fa-bars" />
-  //   </button>
-  // </div>)
-  // } else {
-  //   nav = (
-  //     <Nav />
-  //   )
-  // }
 
   return (
     <div className="App">
-      {/* { nav } */}
-
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/projects" component={Projects} />
@@ -55,7 +32,7 @@ export const App = (props) => {
             </li>
             <li className="footer-items" aria-label="contact list item">
               <a href="https://twitter.com/kronicle1141" target="_blank" rel="noopener noreferrer">
-                <img className="footer-logo" src={twitter} alt="twitter logo"></img>
+                <img className="footer-logo" src={twitter} alt="twitter logo"/>
               </a>
             </li>
             <li className="footer-items" aria-label="contact list item">
