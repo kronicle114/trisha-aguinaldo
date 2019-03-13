@@ -2,6 +2,7 @@ import React from 'react';
 import transparent from '../assets/transparent.png';
 import trish from '../assets/trish.png';
 import soaps from '../assets/soaps.jpg';
+import resume from '../assets/Resume.pdf';
 import '../styles/about.css';
 
 export default function AboutMe(props) {
@@ -25,6 +26,12 @@ export default function AboutMe(props) {
           </p>
           <p>I'm a full stack developer with a background in healthcare and education. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by collaborating with other developers at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. </p>
           <p>Like what you see? <strong>Let’s chat!</strong></p>
+        </div>
+
+        <div className="action-call">
+          <p className="resume">
+            Download my resume <a href={resume}>here</a>
+          </p>
         </div>
 
         {/* ======= TECH STACK ======= */}
