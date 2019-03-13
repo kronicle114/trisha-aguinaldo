@@ -132,16 +132,16 @@
 
 .hello b{
   color: #fcf0f9;
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #d32daf, 0 0 0.5em #d32daf, 0 0 0.1em #d32daf, 0 10px 3px #000;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #d32daf, 0 0 0.5em #d32daf, 0 0 0.1em #d32daf, 0 10px 3px #000;
 }
 
 .hello b span{
-  animation: blink linear infinite 2s;
+  animation: blink2 linear infinite 3s;
 }
 
 .blurb b{
   color: #defefc;
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08e8de, 0 0 0.5em #08e8de, 0 0 0.1em #08e8de, 0 10px 3px #000;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #08e8de, 0 0 0.5em #08e8de, 0 0 0.1em #08e8de, 0 10px 3px #000;
 }
 
 .blurb b span{
@@ -177,6 +177,33 @@
     text-shadow: none;
   }
   92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+@keyframes blink2 {
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  85% {
+    
+    text-shadow: none;
+  }
+  86% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  88% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  95% {
+    color: #333;
+    text-shadow: none;
+  }
+  96.5% {
     color: inherit;
     text-shadow: inherit;
   }

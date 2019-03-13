@@ -11,23 +11,8 @@ export default function Greeting() {
       {/* <Nav/> */}
       <div className="greeting-contents">
 
-        {/* <div className="animate color-delay">
-          <span>h</span>
-          <span>e</span>
-          <span>l</span>
-          <span>l</span>
-          <span>o</span>
-          <span>&nbsp;</span>
-          <span>w</span>
-          <span>o</span>
-          <span>r</span>
-          <span>l</span>
-          <span>d</span>
-          <span>.</span>
-        </div>  */}
-
         <div className="hello">
-          <b>he<span>llo</span> <span>wo</span>rl<span>d</span></b>
+          <b>h<span>e</span>llo w<span>o</span>rld</b>
         </div>
 
         <div className="blurb">
