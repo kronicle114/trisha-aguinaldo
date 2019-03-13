@@ -3,7 +3,6 @@ import transparent from '../assets/transparent.png';
 import trish from '../assets/trish.png';
 import soaps from '../assets/soaps.jpg';
 import resume from '../assets/Resume.pdf';
-import { Link } from 'react-router-dom';
 import '../styles/about.css';
 
 export default function AboutMe(props) {
