@@ -9,7 +9,8 @@ export default function Greeting() {
     <div className="greeting">
       {/* <Nav/> */}
       <div className="greeting-contents">
-        <div className="animate color-delay">
+      
+        {/* <div className="animate color-delay">
           <span>h</span>
           <span>e</span>
           <span>l</span>
@@ -22,7 +23,12 @@ export default function Greeting() {
           <span>l</span>
           <span>d</span>
           <span>.</span>
-        </div> 
+        </div>  */}
+
+        <div className="hello">
+          <b>he<span>llo</span> <span>wo</span>rl<span>d</span></b>
+        </div>
+
         <div className="blurb">
           <b>i'<span>m</span> tr<span>i</span>sh<span>a</span></b>
         </div>

@@ -135,13 +135,31 @@
 }
 
 /* ======== blurb animation ======== */
+.hello {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  font-size: 48px;
+}
+
+.hello b{
+  color: #fcf0f9;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #d32daf, 0 0 0.5em #d32daf, 0 0 0.1em #d32daf, 0 10px 3px #000;
+}
+
+.hello b span{
+  animation: blink linear infinite 2s;
+}
+
 .blurb b{
   color: #defefc;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08e8de, 0 0 0.5em #08e8de, 0 0 0.1em #08e8de, 0 10px 3px #000;
 }
+
 .blurb b span{
   animation: blink linear infinite 2s;
 }
+
 @keyframes blink {
   78% {
     color: inherit;
