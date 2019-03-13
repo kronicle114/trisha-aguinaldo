@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import resume from '../assets/Resume.pdf';
 import map from '../assets/map.png';
 import twitter from '../assets/twitter.svg';
@@ -10,6 +11,7 @@ import '../styles/contact.css';
 export default function Contact(props) {
   return(
     <section className="contact-container">
+      <Link to="/" className="align-right">Back</Link>
       <h2>Contact</h2>
       <div className="ombre-bar"/>
       <div className="contact-contents">
