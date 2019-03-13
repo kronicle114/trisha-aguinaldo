@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/App.css';
-import Nav from './Nav';
+// import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -13,31 +13,31 @@ import email from '../assets/gmail.svg';
 import { Route } from 'react-router-dom';
 
 export const App = (props) => { 
-  const [ navClick, setNavClick ] = useState(false)
+  // const [ navClick, setNavClick ] = useState(false)
 
-  let nav;
-  if (!navClick || localStorage.close === false) {
-    nav = (<div className="hamburger">
-    <button 
-      id="bar" 
-      onClick={() => {
-          setNavClick(true);
-          localStorage.setItem('close', false)
-        }
-      }
-    >
-      <i className="fas fa-bars" />
-    </button>
-  </div>)
-  } else {
-    nav = (
-      <Nav />
-    )
-  }
+  // let nav;
+  // if (!navClick || localStorage.close === false) {
+  //   nav = (<div className="hamburger">
+  //   <button 
+  //     id="bar" 
+  //     onClick={() => {
+  //         setNavClick(true);
+  //         localStorage.setItem('close', false)
+  //       }
+  //     }
+  //   >
+  //     <i className="fas fa-bars" />
+  //   </button>
+  // </div>)
+  // } else {
+  //   nav = (
+  //     <Nav />
+  //   )
+  // }
 
   return (
     <div className="App">
-      { nav }
+      {/* { nav } */}
 
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
