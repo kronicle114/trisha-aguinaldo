@@ -30,7 +30,7 @@ export default function Greeting() {
 
         <div className="contact">
           <a 
-            href="#contact" 
+            href="/contact" 
             className="contact-link"
             onMouseOver={() => setContactHover(true)}
             onMouseLeave={() => setContactHover(false)}

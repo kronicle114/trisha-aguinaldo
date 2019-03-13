@@ -8,18 +8,6 @@
   z-index: 9999;
 }
 
-.modal {
-  position: fixed;
-  top: 32%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: transparent;
-  max-height: 100%;
-  min-width: 95%;
-  max-width: 100%;
-  text-align: center;
-  overflow: auto;
-}
 
 .login-form {
   display: flex;
@@ -33,3 +21,62 @@
   margin: 3px;
   text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+  .nav-overlay {
+    background-color: rgba(0, 0, 0, 0.822);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+
+  .modal {
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    max-height: 100%;
+    min-width: 95%;
+    max-width: 100%;
+    text-align: center;
+    overflow: auto;
+  }
+} 
+
+@media screen and (min-width: 321px){
+  .nav-overlay {
+    background-color: rgba(0, 0, 0, 0.822);
+    position: fixed;
+    left: -60%;
+    top: 0;
+    z-index: 9999;
+    min-width: 30%;
+    max-width: 40%;
+  }
+} 
+
+@media screen and (min-width: 600px){
+  .nav-overlay {
+    background-color: rgba(0, 0, 0, 0.822);
+    position: fixed;
+    left: -70%;
+    top: 0;
+    z-index: 9999;
+    max-width: 15%;
+  }
+} 
+
+@media screen and (min-width: 800px){
+  .nav-overlay {
+    background-color: rgba(0, 0, 0, 0.822);
+    position: fixed;
+    left: -80%;
+    top: 0;
+    z-index: 9999;
+    max-width: 10%;
+  }
+} 
