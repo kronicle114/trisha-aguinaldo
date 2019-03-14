@@ -110,7 +110,7 @@
   width: 50px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .stack-list li {
     width: 20px;
   }
@@ -119,7 +119,11 @@
     font-size: 20px;
   }
 
-  .redux , .pygame {
+  .redux{
+    width: 20px;
+  }
+
+  .pygame {
     width: 70px;
   }
 } 
