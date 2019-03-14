@@ -90,10 +90,6 @@
   padding: 5px;
 }
 
-.stack-list .colored  {
-  font-size: 50px;
-}
-
 .map {
   display: block;
   margin: 0 auto;
@@ -110,7 +106,7 @@
   width: 50px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .stack-list li {
     width: 20px;
   }
@@ -127,6 +123,14 @@
     width: 70px;
   }
 } 
+
+@media screen and (min-width: 481px) {
+
+  .stack-list .colored  {
+    font-size: 50px;
+  }
+
+}
 
 @media screen and (min-width: 700px) {
   .wc-img, .tagalog, .octo-img, .invaders, .quiz .roadrate {
