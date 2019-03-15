@@ -10,7 +10,6 @@ blockquote {
   border-left: 10px solid #ccc;
   border-radius: 8px;
   margin: 16px auto;
-  /* box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1); */
   max-width: 800px;
   padding: 10px;
 }
@@ -43,7 +42,6 @@ blockquote:before {
 
 .articles {
  padding-bottom: 10px;
- /* list-style-type: disc; */
  width: 90%;
 }
 

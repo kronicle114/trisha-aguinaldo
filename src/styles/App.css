@@ -67,7 +67,7 @@ dt {
 /* ============== FOOTER ============== */
 .social-media-list {
   margin: 0;
-  padding: 0;
+  padding: 25px 0 0 0;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -79,13 +79,19 @@ dt {
   padding: 10px;
 }
 
+.footer-items a {
+  color: white;
+}
+
 .site-footer {
-  /* position:fixed;
-  left:0px;
-  bottom:0px; */
-  width:100%;
-  background-color: #e8e9e8;
-  /* background-color: transparent; */
+  font-family: Raleway,sans-serif;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+  background: linear-gradient(rgba(29,38,54, 0.9), rgba(0,0,0, 0.95)), url(/static/media/electric.1b317dde.jpg);
+  background-size: cover;
+  background-blend-mode: luminosity;
 }
 
 .footer-logo {
@@ -94,6 +100,27 @@ dt {
 
 .linkedin {
   width: 28px;
+}
+
+.last-call {
+  text-align: center;
+}
+
+.last-call span {
+  font-weight: bold;
+}
+
+.last-call h2 {
+  font-weight: 200;
+}
+
+.last-call h3 {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.last-call p {
+  line-height: 2;
 }
 
 @keyframes bounce {
@@ -114,7 +141,7 @@ dt {
 }
 
 .footer-items:hover, .footer-items:focus, .project-icon:hover, .project-icon:focus {
-	animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 .ombre-bar {

@@ -55,7 +55,6 @@
 
 .animate span {
   display: inline-block;
-  /* text-transform: capitalize; */
   font-size: 48px;
   font-weight: bold;
 }

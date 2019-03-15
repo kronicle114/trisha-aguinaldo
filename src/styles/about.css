@@ -50,6 +50,8 @@ dt {
 .bio, .blurb {
   padding: 10px 0;
   width: 85%;
+  line-height: 1.5;
+  text-align: justify;
 }
 .bio p {
   margin: 10px;

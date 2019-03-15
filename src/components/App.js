@@ -24,6 +24,12 @@ export const App = (props) => {
       <Route exact path="/contact" component={Contact} />
   
       <footer className="site-footer" role="contentinfo">
+        <div className="last-call">
+          <h2>I AM CURRENTLY <span>AVAILABLE</span> FOR HIRE</h2>
+          <h3>GIVE ME A HOLLER</h3>
+          <p>trisha.aguinaldo@gmail.com</p>
+          <p>Boston, MA</p>
+        </div>
         <div className="wrapper">
           <ul className="social-media-list" aria-label="Footer contact list">
             <li className="footer-items">
