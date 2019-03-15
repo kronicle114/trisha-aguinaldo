@@ -42,12 +42,12 @@ export default function Projects () {
             With <strong>RoadRate</strong>, you can review other drivers anonymously. Collaborated with 3 other developers to deploy a full-stack app. We used React Hooks for the front-end and Node.JS / MongoDB Atlas for the backend. User is able to login and logout securely. Passwords are hashed. 
           </p>
          
-          <label htmlFor="roadrate-github">Github: </label>
+          <label htmlFor="roadrate-github">View Source Code: </label>
           <a href="https://github.com/thinkful-ei26/roadrate-client" target="_blank" rel="noopener noreferrer" id="roadrate-github">
             <img className="project-icon" src={github} alt="github icon"/>
           </a>
          
-          <label htmlFor="roadrate-heroku">Live App: </label>
+          <label htmlFor="roadrate-heroku">View Project: </label>
           <a href="https://road-rate-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="roadrate-heroku">
             <img className="project-icon" src={heroku} alt="heroku icon"/>
           </a>
@@ -83,12 +83,12 @@ export default function Projects () {
           <p>
             Want your next meal to be a surprise? Use What's Cooking to get a randomly generated recipe on your list. Or just search for your next meal. This is a deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment.
           </p>
-          <label htmlFor="wc-github">Github: </label>
+          <label htmlFor="wc-github">View Source Code: </label>
           <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer" id="wc-github">
             <img className="project-icon" src={github} alt="github icon"/>
           </a>
-          <label htmlFor="wc-heroku">Live App: </label>
-          <a href="https://protected-depths-66567.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="wc-heroku">
+          <label htmlFor="wc-heroku">View Project: </label>
+          <a href="https://whats-cooking-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="wc-heroku">
             <img className="project-icon" src={heroku} alt="heroku icon"/>
           </a>
           {/*
@@ -125,9 +125,14 @@ export default function Projects () {
           <p>
             You are a gunslinging octopus whose job is to collect and deliver packages. This is a simple game app using Python3 and Pygame. Learned the fundamentals of Python3 within a week and built this game for a class project.
           </p>
-          <label htmlFor="octo-github">Github: </label>
+          <label htmlFor="octo-github">View Source Code: </label>
           <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer" id="octo-github">
             <img className="project-icon" src={github} alt="github icon"/>
+          </a>
+
+          <label htmlFor="wc-heroku">View Project Demo: </label>
+          <a href="https://www.youtube.com/watch?v=Jmx0tXrJHqU" target="_blank" rel="noopener noreferrer" id="octo-youtube">
+            <img className="project-icon" src={heroku} alt="heroku icon"/>
           </a>
         </li>
 

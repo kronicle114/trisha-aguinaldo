@@ -23,12 +23,15 @@
 }
 
 .projects p {
+  text-align: justify;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .project-icon {
   width: 25px;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 /* ======= IMGS ======= */

@@ -57,7 +57,7 @@ dt {
   margin: 10px;
 }
 .pics {
-  margin: 10px auto;
+  margin: 20px auto;
   display: block;
   border-radius: 8px;
   width: 90%;
@@ -112,7 +112,7 @@ dt {
 }
 
 .resume:hover, .resume:focus, .contact-me:hover, .contact-me:focus {
-  transition: .2s ease-in-out;
+  transition: .4s ease-in-out;
   background-color: transparent;
   color: #1D2636;
 }
