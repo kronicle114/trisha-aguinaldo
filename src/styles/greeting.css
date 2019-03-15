@@ -26,11 +26,10 @@
   margin: 10px auto;
   text-align: center;
   color: #F4F0EA;
+  background-color: rgb(29,38,54, 0.4);
   width: 150px;
   line-height: 2;
-  border: 1px solid #F4F0EA;
   border-radius: 8px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
 }
 
 .view-link:hover, .view-link:focus, .contact-link:hover, .contact-link:focus {
