@@ -8,7 +8,7 @@ import '../styles/about.css';
 export default function AboutMe(props) {
   return(
     <section className="about-container">
-      <h2 id="about"> About Me</h2>
+      <h2 id="about" className="uppercase"> About Me</h2>
       <div className="ombre-bar"/>
       <div className="about-contents">
         
@@ -24,14 +24,14 @@ export default function AboutMe(props) {
           <p>
           Hi, I'm Trisha. Art enthusiast, soap artisan, and animal lover.
           </p>
-          <p>I'm a full stack developer with a background in healthcare and education. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by collaborating with other developers at Code For Boston and facilitating a Girls Who Code club in Boston, MA. I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. </p>
+          <p>I'm a full stack developer with a background in healthcare and education. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by collaborating with other developers at Code For Boston and facilitating a Girls Who Code club in Boston, MA.</p>
+          <p>I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. </p>
           <p>Like what you see? <strong>Let’s chat!</strong></p>
         </div>
 
         <div className="action-call">
-          <p className="resume">
-            Download my resume <a href={resume}>here</a>
-          </p>
+          <a className="resume" href={resume}>Download My Resume</a>
+          <a className="contact-me" href="mailto:trisha.aguinaldo@gmail.com">Contact Me</a>
         </div>
 
         {/* ======= TECH STACK ======= */}

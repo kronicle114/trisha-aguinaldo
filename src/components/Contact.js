@@ -12,7 +12,7 @@ export default function Contact(props) {
   return(
     <section className="contact-container">
       <Link to="/" className="align-right">Back</Link>
-      <h2>Contact</h2>
+      <h2 className="uppercase">Contact</h2>
       <div className="ombre-bar"/>
       <div className="contact-contents">
         <p className="resume">

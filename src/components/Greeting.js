@@ -19,7 +19,7 @@ export default function Greeting() {
 
         <div className="view">
           <a 
-            href="#about" 
+            href="#projects" 
             className="view-link"
             onMouseOver={() => setViewHover(true)}
             onMouseLeave={() => setViewHover(false)}
@@ -38,8 +38,8 @@ export default function Greeting() {
             {contactHover ? ("Contact Me ↓") : ("Contact Me →")}
           </a>
         </div>
-
       </div>
+    
     </div>
   )
 }

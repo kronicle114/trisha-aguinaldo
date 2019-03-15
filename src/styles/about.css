@@ -1,7 +1,6 @@
 .profile-img {
   display: inline-block;
   margin: 0 auto;
-  width: 50%;
   max-width: 200px;
   background: linear-gradient(to bottom right, #7ff7ad, #629df8 50%, #d32daf 75%, #d32daf 75%);
   background-size: cover;
@@ -93,4 +92,31 @@ dt {
 }
 .profile-container:hover .profile-overlay, .profile-container:focus .profile-overlay {
   opacity: 1;
+}
+
+.resume, .contact-me {
+  display: block;
+  margin: 10px auto;
+  max-width: 60%;
+  color: white;
+  cursor: pointer;
+  background-color:#1D2636;
+  font-size: 24px;
+  padding: 20px;
+  font-family: Raleway,sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+  border-radius: 8px;
+}
+
+.resume:hover, .resume:focus, .contact-me:hover, .contact-me:focus {
+  transition: .2s ease-in-out;
+  background-color: transparent;
+  color: #1D2636;
+}
+
+@media screen and (max-width: 320px) {
+  .resume, .contact-me {
+    font-size: 16px;
+  }
 }

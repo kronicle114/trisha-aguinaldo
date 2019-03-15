@@ -40,6 +40,11 @@
   transition: .5s ease;
 }
 
+.scroll-down, .far {
+  font-size: 40px;
+  color: white;
+}
+
 /* ======== greeting animation ======== */
 
 .animate {

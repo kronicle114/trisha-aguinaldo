@@ -24,7 +24,7 @@ export const SideNav = () => {
               <h1>Trisha Aguinaldo</h1>
             </Link>
           </div>
-        <ul className="nav-list">
+        <ul className="nav-list uppercase">
           <li className="nav-items">
             <a href="#about" alt="About Section">
               About

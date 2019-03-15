@@ -16,7 +16,8 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  background-color: #1D2636;
+  /* background-color: #1D2636; */
+  background-color:rgb(29,38,54, 0.8);
   z-index: 9998;
 }
 
@@ -30,7 +31,6 @@
 
 .nav-items a {
   color: #f9f9fe;
-  text-transform: uppercase;
 }
 
 .nav-items > a:hover, .nav-items > a:focus {

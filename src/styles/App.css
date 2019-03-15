@@ -1,4 +1,9 @@
 /* ============== BODY ============== */
+.uppercase {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
 .hamburger {
   position: fixed;
   top: 0;

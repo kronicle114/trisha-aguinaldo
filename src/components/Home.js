@@ -9,8 +9,8 @@ export default function Home(props) {
   return(
     <section className="home">
       <Greeting />
-      <About />
       <Project />
+      <About />
       <Blog />
     </section>
   )
