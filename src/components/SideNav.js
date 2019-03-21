@@ -41,10 +41,9 @@ export const SideNav = () => {
             </a>
           </li>
           <li className="nav-items">
-            <Link to="/contact"
-            >
+            <a href="#give" alt="Contact Section">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
         </nav>

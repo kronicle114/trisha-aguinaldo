@@ -29,4 +29,5 @@
 #nav-button:hover, #nav-button:focus,
 .login-link:hover, .register-link:hover, .landing-link:hover, .about-link:hover {
   color: grey;
+  cursor: pointer;
 }

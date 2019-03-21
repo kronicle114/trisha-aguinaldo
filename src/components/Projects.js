@@ -5,6 +5,7 @@ import roadrate from '../assets/roadrate.jpg';
 import github from '../assets/github-icon.svg';
 import heroku from '../assets/heroku-icon.svg';
 import pygame from '../assets/pygame.png';
+import tagalog from '../assets/tagalog.png';
 import '../styles/projects.css';
 
 export default function Projects () {
@@ -99,6 +100,47 @@ export default function Projects () {
         </li>
 
         {/* ================== PROJECT 3 ================== */}
+        <li className="projects">
+          <h3>
+            <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">Tagalog Teacher</a>
+          </h3>
+
+          {/* PROJECT IMAGE */}
+          <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer">
+            <div className="container">
+                <img className="tagalog-img" src={tagalog} alt="Tagalog Teacher"/>
+              <div className="overlay">
+                <div className="stack">
+                <ul className="stack-list">
+                  <li><i className="devicon-javascript-plain colored"></i></li>
+                  <li><i className="devicon-react-original colored"></i></li>
+                  <li>
+                  <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                  </li>
+                  <li><i className="devicon-mongodb-plain colored"></i> </li>
+                  <li><i className="devicon-nodejs-plain colored"></i></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+         
+          {/* PROJECT DESCRIPTION */}
+          <p>
+            Use Tagalog Teacher to learn Tagalog, the native language of the Philippines. Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely.
+          </p>
+          <label htmlFor="tagalog-github">View Source Code: </label>
+          <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer" id="tagalog-github">
+            <img className="project-icon" src={github} alt="github icon"/>
+          </a>
+
+          <label htmlFor="wc-heroku">View Project: </label>
+          <a href="https://tagalog-teacher.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="tagalog-heroku">
+            <img className="project-icon" src={heroku} alt="heroku icon"/>
+          </a>
+        </li>
+
+        {/* ================== PROJECT 4 ================== */}
         <li className="projects">
           <h3>
             <a href="https://github.com/thinkful-ei26/octo-delivery-service" target="_blank" rel="noopener noreferrer">OctoGun: Delivery Service</a>

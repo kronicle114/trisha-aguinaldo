@@ -23,7 +23,7 @@ export const App = (props) => {
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/contact" component={Contact} />
   
-      <footer className="site-footer" role="contentinfo">
+      <footer id="give" className="site-footer" role="contentinfo">
         <div className="last-call">
           <h2>I AM CURRENTLY <span>AVAILABLE</span> FOR HIRE</h2>
           <h3>GIVE ME A HOLLER</h3>
