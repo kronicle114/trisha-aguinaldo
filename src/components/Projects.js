@@ -82,7 +82,7 @@ export default function Projects () {
          
           {/* PROJECT DESCRIPTION */}
           <p>
-            Want your next meal to be a surprise? Use What's Cooking to get a randomly generated recipe on your list. Or just search for your next meal. This is a deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment.
+            Want your next meal to be a surprise? Use <strong>What's Cooking</strong> to get a randomly generated recipe on your list. Or just search for your next meal. This is a deployed full stack app using React/Redux for the front-end and Node.js / MongoDB for the backend in TDD environment.
           </p>
           <label htmlFor="wc-github">View Source Code: </label>
           <a href="https://github.com/thinkful-ei26/trisha-wc-client#not-sure-what-to-cook-for-your-next-meal" target="_blank" rel="noopener noreferrer" id="wc-github">
@@ -127,7 +127,7 @@ export default function Projects () {
          
           {/* PROJECT DESCRIPTION */}
           <p>
-            Use Tagalog Teacher to learn Tagalog, the native language of the Philippines. Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely.
+            Use <strong>Tagalog Teacher</strong> to learn Tagalog, the native language of the Philippines. Collaborated with another developer for a week to deploy a full stack app using spaced-repetition algorithm and linked list data-structure. Used React/Redux for the front-end and Node.js / MongoDB. User is able to login and logout securely.
           </p>
           <label htmlFor="tagalog-github">View Source Code: </label>
           <a href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client" target="_blank" rel="noopener noreferrer" id="tagalog-github">
