@@ -1,17 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react';
-import SideNav from './SideNav';
-import '../styles/landing-nav.css';
-import '../styles/modal.css';
+import React, { useState, useEffect, useRef } from 'react'
+import SideNav from './SideNav'
+import '../styles/landing-nav.css'
+import '../styles/modal.css'
 
 export const LandingNav = () => {
-  const [modalOpen, setModalOpen] = useState(false);
-  const onClose = () => setModalOpen(false);
+  const [modalOpen, setModalOpen] = useState(false)
+  const onClose = () => setModalOpen(false)
 
   const clickOutside = (ref, onClose) => {
     const statusChange = (e) => {
       if (!ref.current.contains(e.target)){
         setModalOpen(modalOpen)
-        onClose();
+        onClose()
       }
     }
     document.addEventListener('click', statusChange)
@@ -34,7 +34,7 @@ export const LandingNav = () => {
           </div>
         </div>
       </div>
-    );
+    )
   }             
 
   return(
@@ -64,4 +64,4 @@ export const LandingNav = () => {
   )
 }
 
-export default LandingNav;
+export default LandingNav
