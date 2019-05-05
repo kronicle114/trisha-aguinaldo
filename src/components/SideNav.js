@@ -1,10 +1,10 @@
-import React, { useState } from 'react'; 
-import { Link } from 'react-router-dom';
-import logo from '../assets/t-alpha.svg';
-import '../styles/nav.css';
+import React, { useState } from 'react' 
+import { Link } from 'react-router-dom'
+import logo from '../assets/t-alpha.svg'
+import '../styles/nav.css'
 
 export const SideNav = () => {
-  const [modalOpen, setModalOpen] = useState(true);
+  const [modalOpen, setModalOpen] = useState(true)
   
   const Button = () => {
     localStorage.setItem("modalOpen", modalOpen)
@@ -101,4 +101,4 @@ export const SideNav = () => {
   //   </section>
   //   )};
 
-export default SideNav;
+export default SideNav

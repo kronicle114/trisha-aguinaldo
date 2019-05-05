@@ -1,12 +1,12 @@
-import React from 'react';
-import wc from '../assets/wc.png';
-import octo from '../assets/octo.png';
-import roadrate from '../assets/roadrate.jpg';
-import github from '../assets/github-icon.svg';
-import heroku from '../assets/heroku-icon.svg';
-import pygame from '../assets/pygame.png';
-import tagalog from '../assets/tagalog.png';
-import '../styles/projects.css';
+import React from 'react'
+import wc from '../assets/wc.png'
+import octo from '../assets/octo.png'
+import roadrate from '../assets/roadrate.jpg'
+import github from '../assets/github-icon.svg'
+import heroku from '../assets/heroku-icon.svg'
+import pygame from '../assets/pygame.png'
+import tagalog from '../assets/tagalog.png'
+import '../styles/projects.css'
 
 export default function Projects () {
   return(

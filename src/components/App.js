@@ -1,16 +1,16 @@
-import React from 'react';
-import '../styles/App.css';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
-import Blog from './Blog';
-import Home from './Home';
-import LandingNav from './LandingNav';
-import twitter from '../assets/twitter.svg';
-import github from '../assets/github-icon.svg';
-import linkedin from '../assets/linkedin-icon.svg';
-import email from '../assets/gmail.svg';
-import { Route } from 'react-router-dom';
+import React from 'react'
+import '../styles/App.css'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import Blog from './Blog'
+import Home from './Home'
+import LandingNav from './LandingNav'
+import twitter from '../assets/twitter.svg'
+import github from '../assets/github-icon.svg'
+import linkedin from '../assets/linkedin-icon.svg'
+import email from '../assets/gmail.svg'
+import { Route } from 'react-router-dom'
 
 export const App = (props) => { 
 
@@ -25,7 +25,8 @@ export const App = (props) => {
   
       <footer id="give" className="site-footer" role="contentinfo">
         <div className="last-call">
-          <h2>I AM CURRENTLY <span>AVAILABLE</span> FOR HIRE</h2>
+          {/* <h2>I AM CURRENTLY <span>AVAILABLE</span> FOR HIRE</h2> */}
+          <h2>GOT A QUESTION?</h2>
           <h3>GIVE ME A HOLLER</h3>
           <p>trisha.aguinaldo@gmail.com</p>
           <p>Boston, MA</p>
@@ -61,7 +62,7 @@ export const App = (props) => {
         </div>
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

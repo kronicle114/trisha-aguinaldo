@@ -1,9 +1,9 @@
-import React from 'react';
-import transparent from '../assets/transparent.png';
-import trish from '../assets/trish.png';
-import soaps from '../assets/soaps.jpg';
-import resume from '../assets/Resume.pdf';
-import '../styles/about.css';
+import React from 'react'
+import transparent from '../assets/transparent.png'
+import trish from '../assets/trish.png'
+import soaps from '../assets/soaps.jpg'
+import resume from '../assets/Resume.pdf'
+import '../styles/about.css'
 
 export default function AboutMe(props) {
   return(
@@ -24,9 +24,9 @@ export default function AboutMe(props) {
           <p>
           Hi! I'm Trisha. Art enthusiast, soap artisan, and animal lover.
           </p>
-          <p>I'm a full stack developer with a background in healthcare and education. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. I'm one step closer to this goal by collaborating with other developers at Code For Boston and facilitating a Girls Who Code club in Boston, MA.</p>
-          <p>I recently graduated from the Engineering Immersion program at Thinkful. I'm searching for the right team to help nurture and develop my growth as a programmer. </p>
-          <p>Like what you see? <strong>Let’s chat!</strong></p>
+          <p>I'm a full stack developer with a background in healthcare and education. A year ago, I fell in love with programming after launching a WordPress website for my artisan soap business. I enjoy creating apps that have a positive impact on people and their communities. On weekdays, I work at <strong>Reggora, Inc</strong> as a QA Software Engineer and I help beginners break through the tech industry as a web development teaching assistant for <strong>Thinkful Boston</strong>. On the weekends, I work at <strong>Dana-Farber Cancer Institute</strong> as a clinical admin.</p>
+          <p>I'm taking OSSU's <a href="https://github.com/ossu/computer-science">computer science</a> program to nurture my growth as a programmer. I also regularly attend tech events in Boston and volunteer when I can.</p>
+          {/* <p>Like what you see? <strong>Let’s chat!</strong></p> */}
         </div>
 
         <div className="action-call">

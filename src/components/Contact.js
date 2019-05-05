@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import resume from '../assets/Resume.pdf';
-import map from '../assets/map.png';
-import twitter from '../assets/twitter.svg';
-import github from '../assets/github-icon.svg';
-import linkedin from '../assets/linkedin-icon.svg';
-import email from '../assets/gmail.svg';
-import '../styles/contact.css';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import resume from '../assets/Resume.pdf'
+import map from '../assets/map.png'
+import twitter from '../assets/twitter.svg'
+import github from '../assets/github-icon.svg'
+import linkedin from '../assets/linkedin-icon.svg'
+import email from '../assets/gmail.svg'
+import '../styles/contact.css'
 
 export default function Contact(props) {
   return(

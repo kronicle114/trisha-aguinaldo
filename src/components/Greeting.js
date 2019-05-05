@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import '../styles/greeting.css';
+import React, { useState } from 'react'
+import '../styles/greeting.css'
 
 export default function Greeting() {
   const [ viewHover, setViewHover ] = useState(null);
