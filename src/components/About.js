@@ -3,9 +3,15 @@ import transparent from '../assets/transparent.png'
 import trish from '../assets/trish.png'
 import soaps from '../assets/soaps.jpg'
 import resume from '../assets/Resume.pdf'
+// import pythonIcon from '../assets/python.svg'
 import '../styles/about.css'
 
 export default function AboutMe(props) {
+  let pythonStyle = {
+    margin: '0',
+    width: '20px',
+    height: '20px',
+  };
   return(
     <section className="about-container">
       <h2 id="about" className="uppercase"> About Me</h2>
@@ -31,7 +37,7 @@ export default function AboutMe(props) {
 
         <div className="action-call">
           <a className="resume" href={resume}>Download My Resume</a>
-          <a className="contact-me" href="mailto:trisha.aguinaldo@gmail.com">Contact Me</a>
+          <a id="contact" className="contact-me" href="mailto:trisha.aguinaldo@gmail.com">Contact Me</a>
         </div>
 
         {/* ======= TECH STACK ======= */}
@@ -40,10 +46,10 @@ export default function AboutMe(props) {
           <dl className="skills">
             <dt className="front-end">Front-end</dt>
               <dd><i className="devicon-javascript-plain colored"></i> JavaScript ES6+</dd>
-              <dd><i className="devicon-python-plain colored"></i> Python</dd>
+              <dd><img src="https://img.icons8.com/color/48/000000/python.png" alt="python icon" style={pythonStyle}/> Python 3+</dd>
               <dd><i className="devicon-html5-plain colored"></i> HTML5</dd>
               <dd><i className="devicon-css3-plain colored"></i> CSS3</dd>
-              <dd><i className="devicon-react-original colored"></i> React / Redux </dd>
+              <dd><i className="devicon-react-original colored"></i> React / Redux / Hooks</dd>
           </dl>
           <dl className="skills">
             <dt className="back-end">Back-end</dt>

@@ -6,6 +6,7 @@ import Greeting from './Greeting'
 import '../styles/home.css'
 
 export default function Home(props) {
+  /* Components exported as Home HOC */
   return(
     <section className="home">
       <Greeting />
