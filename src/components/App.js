@@ -17,11 +17,11 @@ export const App = (props) => {
   return (
     <div className="App">
       <LandingNav />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/blog" component={Blog} />
-      <Route exact path="/contact" component={Contact} />
+      <Route path="/" component={Home} />
+      <Route exact path="/#about" component={About} />
+      <Route exact path="/#projects" component={Projects} />
+      <Route exact path="/#blog" component={Blog} />
+      <Route exact path="/#contact" component={Contact} />
   
       <footer id="give" className="site-footer" role="contentinfo">
         <div className="last-call">
