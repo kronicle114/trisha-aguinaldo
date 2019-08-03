@@ -28,10 +28,30 @@ export default function Projects () {
               <div className="overlay">
                 <div className="stack">
                 <ul className="stack-list">
-                  <li><i className="devicon-javascript-plain colored"></i></li>
-                  <li><i className="devicon-react-original colored"/></li>
-                  <li><i className="devicon-mongodb-plain colored"></i> </li>
-                  <li><i className="devicon-nodejs-plain colored"></i></li>
+                  <li>
+                    <div class="tooltip">
+                      <i className="devicon-javascript-plain colored tooltip"></i>
+                      <span class="tooltiptext">JavaScript</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tooltip"> 
+                      <i className="devicon-react-original colored tooltip"/>
+                      <span class="tooltiptext">React</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tooltip"> 
+                      <i className="devicon-mongodb-plain colored tooltip"></i> 
+                      <span class="tooltiptext">MongoDB</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tooltip"> 
+                      <i className="devicon-nodejs-plain colored tooltip"></i> 
+                      <span class="tooltiptext">Node.JS</span>
+                    </div>
+                  </li>
                 </ul>
                 </div>
               </div>
@@ -66,15 +86,38 @@ export default function Projects () {
                 <img className="wc-img" src={wc} alt="What's Cooking App"/>
               <div className="overlay">
                 <div className="stack">
-                <ul className="stack-list">
-                  <li><i className="devicon-javascript-plain colored"></i></li>
-                  <li><i className="devicon-react-original colored"></i></li>
-                  <li>
-                  <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
-                  </li>
-                  <li><i className="devicon-mongodb-plain colored"></i> </li>
-                  <li><i className="devicon-nodejs-plain colored"></i></li>
-                </ul>
+                  <ul className="stack-list">
+                    <li>
+                      <div class="tooltip">
+                        <i className="devicon-javascript-plain colored tooltip"></i>
+                        <span class="tooltiptext">JavaScript</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <i className="devicon-react-original colored tooltip"/>
+                        <span class="tooltiptext">React</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                        <span class="tooltiptext">Redux</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <i className="devicon-mongodb-plain colored tooltip"></i> 
+                        <span class="tooltiptext">MongoDB</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <i className="devicon-nodejs-plain colored tooltip"></i> 
+                        <span class="tooltiptext">Node.JS</span>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -111,15 +154,38 @@ export default function Projects () {
                 <img className="tagalog-img" src={tagalog} alt="Tagalog Teacher"/>
               <div className="overlay">
                 <div className="stack">
-                <ul className="stack-list">
-                  <li><i className="devicon-javascript-plain colored"></i></li>
-                  <li><i className="devicon-react-original colored"></i></li>
-                  <li>
-                  <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
-                  </li>
-                  <li><i className="devicon-mongodb-plain colored"></i> </li>
-                  <li><i className="devicon-nodejs-plain colored"></i></li>
-                </ul>
+                  <ul className="stack-list">
+                    <li>
+                      <div class="tooltip">
+                        <i className="devicon-javascript-plain colored tooltip"></i>
+                        <span class="tooltiptext">JavaScript</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <i className="devicon-react-original colored tooltip"/>
+                        <span class="tooltiptext">React</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux logo" className="redux" />
+                        <span class="tooltiptext">Redux</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <i className="devicon-mongodb-plain colored tooltip"></i> 
+                        <span class="tooltiptext">MongoDB</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tooltip"> 
+                        <i className="devicon-nodejs-plain colored tooltip"></i> 
+                        <span class="tooltiptext">Node.JS</span>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -153,9 +219,17 @@ export default function Projects () {
               <div className="overlay">
                 <div className="stack">
                 <ul className="stack-list">
-                  <li><i className="devicon-python-plain colored"></i></li>
                   <li>
+                    <div class="tooltip"> 
+                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="python icon" className="python_tooltip" />
+                      <span class="tooltiptext">Python3</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tooltip"> 
                     <img className="pygame" src={pygame} alt="pygame icon" />
+                      <span class="tooltiptext">Pygame</span>
+                    </div>
                   </li>
                 </ul>
                 </div>
