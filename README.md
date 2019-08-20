@@ -1,6 +1,5 @@
 # Trisha's Portfolio
-[https://github.com/kronicle114/trisha-aguinaldo](https://github.com/kronicle114/trisha-aguinaldo)
-**Patricia Aguinaldo's** full stack portfolio
+- [https://github.com/kronicle114/trisha-aguinaldo](https://github.com/kronicle114/trisha-aguinaldo)
 
 ## Tech Stack
 - Made using React Hooks
