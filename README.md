@@ -1,4 +1,5 @@
 # Trisha's Portfolio
+[https://github.com/kronicle114/trisha-aguinaldo](https://github.com/kronicle114/trisha-aguinaldo)
 **Patricia Aguinaldo's** full stack portfolio
 
 ## Tech Stack
