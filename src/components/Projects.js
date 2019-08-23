@@ -58,7 +58,7 @@ export const Projects = () => {
           other={
             {
               imgURL: 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png',
-              altDescription: 'redux logo',
+              altDescription: 'redux',
               imgClassName: 'Redux'
             }
           }
@@ -82,7 +82,7 @@ export const Projects = () => {
           other={
             {
               imgURL: 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png',
-              altDescription: 'redux logo',
+              altDescription: 'redux',
               imgClassName: 'Redux'
             }
           }
