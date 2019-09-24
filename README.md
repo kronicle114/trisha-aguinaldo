@@ -1,4 +1,5 @@
 # Trisha's Portfolio
+- Domain: [trisha-aguinaldo.com](http://www.trisha-aguinaldo.com/)
 - [https://github.com/kronicle114/trisha-aguinaldo](https://github.com/kronicle114/trisha-aguinaldo)
 
 ## Tech Stack
