@@ -5,7 +5,7 @@ import '../styles/nav.css'
 
 export const SideNav = () => {
   const [modalOpen, setModalOpen] = useState(true)
-  
+
   const Button = () => {
     localStorage.setItem("modalOpen", modalOpen)
 
@@ -18,12 +18,12 @@ export const SideNav = () => {
     <section className="modal-container">
       <article className="nav-modal">
         <nav role="navigation" className="nav-container">
-          <div className="logo-wrapper">
+          <header className="logo-wrapper">
             <Link to="/">
               <img src={logo} alt="logo" className="logo" aria-label="Trisha Aguinaldo"/>
               <h1>Trisha Aguinaldo</h1>
             </Link>
-          </div>
+          </header>
         <ul className="nav-list uppercase">
           <li className="nav-items">
             <a href="#about" alt="About Section">
