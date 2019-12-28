@@ -17,6 +17,10 @@ export default function Blog(props) {
     <div className="blog-contents">
       <ul className="article-list">
         <li className="articles">
+          <h3><a href="https://dev.to/kronicle114/bash-profile-shortcuts-and-terminal-customizations-2lmj">Bash profile shortcuts and terminal customizations</a></h3>
+          <p>Dec 23, 2019</p>
+        </li>
+        <li className="articles">
           <h3><a href="https://dev.to/kronicle114/updating-vim-macos-797">Updating Vim (MacOS)</a></h3>
           <p>Jul 6, 2019</p>
         </li>

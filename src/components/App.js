@@ -12,7 +12,7 @@ import { Route } from 'react-router-dom'
 export const App = (props) => { 
 
   return (
-    <div className="App">
+    <main className="App">
       <LandingNav />
 
       {/* Displays the URL and corresponding components */}
@@ -24,7 +24,7 @@ export const App = (props) => {
       <Route exact path="/#holler" component={Footer} />
 
       <Footer />
-    </div>
+    </main>
   )
 }
 
