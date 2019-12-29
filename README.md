@@ -14,6 +14,11 @@ trisha.aguinaldo@gmail.com
 
 ## Dev Instructions
 - Run `npm start`
+- Added serviceWorker to handle caching / chunking issues after deployment [pwa](https://blog.bitsrc.io/build-progressive-web-apps-with-react-part-1-63f1fbc564a6).
+```bash
+yarn build
+serve -s build
+```
 
 ## Deployment Instructions
 - [ ] Check that you are logged in to heroku `heroku login`
