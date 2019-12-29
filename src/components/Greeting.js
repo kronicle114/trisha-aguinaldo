@@ -6,8 +6,8 @@ export default function Greeting() {
   const [ contactHover, setContactHover ] = useState(null);
 
   return(
-    <div className="greeting">
-      <div className="greeting-contents">
+    <section className="greeting">
+      <article className="greeting-contents">
 
         <div id="hello">
           <b>h<span>e</span>llo w<span>o</span>rld</b>
@@ -38,8 +38,8 @@ export default function Greeting() {
             {contactHover ? ("Contact Me ↓") : ("Contact Me →")}
           </a>
         </div>
-      </div>
+      </article>
     
-    </div>
+    </section>
   )
 }
