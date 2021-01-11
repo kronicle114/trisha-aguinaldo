@@ -29,14 +29,14 @@ export default function AboutMe(props) {
           <p>
           Hi! I'm Trisha. Art enthusiast, soap artisan, and animal lover.
           </p>
-          <p>I'm a developer with a background in healthcare and education. I enjoy creating apps that have a positive impact on people and their communities. Two years ago, I fell in love with programming after launching a WordPress website for my artisan soap business.</p>
-          <p>I'm taking OSSU's <a href="https://github.com/ossu/computer-science">computer science</a> program to nurture my growth as a programmer. I also regularly attend tech events in Boston and volunteer when I can.</p>
+          <p>I'm a developer with a background in healthcare and education. I enjoy creating apps that have a positive impact on people and their communities. Three years ago, I fell in love with programming after launching a WordPress website for my artisan soap business.</p>
+          <p>My spicy life journey has landed me a career in management. Currently, I lead a team of talented QA engineers as the Head of Quality Assurance at <a href="https://www.reggora.com/">Reggora</a>. Pre-Covid, I regularly attend tech events in Boston and volunteer when I can. But nowadays, you can find me occasionally helping junior developers breakthrough the tech scene. Or more likely, filming my next Tiktok dances.</p>
           <p>Like what you see? <strong>Let’s chat!</strong></p>
         </article>
 
         <article className="action-call">
-          <a className="resume" href={resume}>Download My Resume</a>
           <a id="contact" className="contact-me" href="mailto:trisha.aguinaldo@gmail.com">Contact Me</a>
+          <a className="resume" href={resume}>Download My Resume</a>
         </article>
 
         {/* ======= TECH STACK ======= */}
@@ -64,7 +64,7 @@ export default function AboutMe(props) {
           </dl>
         </article>
 
-        <img className="pics" src="https://sweettootsco.files.wordpress.com/2018/08/trishiceland.jpg" alt="Trisha's happy place" />
+        {/* <img className="pics" src="https://sweettootsco.files.wordpress.com/2018/08/trishiceland.jpg" alt="Trisha's happy place" /> */}
         <img className="pics" src={soaps} alt="Soaps" />
 
       </article>
