@@ -7,19 +7,16 @@
 - Used create-react-app and React Hooks
 - Plain old CSS
 - Deployed using Heroku and Google Domains
-
 ## Dev Instructions
 - Clone repo `git clone https://github.com/kronicle114/trisha-aguinaldo.git`
 - Install dependencies `npm install`
 - Run `npm start`
-
 ## Notable Updates
 - Added serviceWorker to handle caching / chunking issues after deployment [pwa](https://blog.bitsrc.io/build-progressive-web-apps-with-react-part-1-63f1fbc564a6).
 ```bash
 yarn build
 serve -s build
 ```
-
 ## To-dos
 - Migrate to MongoDB
 - Then build blog section
